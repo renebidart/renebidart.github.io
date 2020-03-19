@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic</title>
-    <link>https://renebidart.github.io/authors/admin/</link>
-      <atom:link href="https://renebidart.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://renebidart.com/authors/admin/</link>
+      <atom:link href="https://renebidart.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Academic</title>
-      <link>https://renebidart.github.io/authors/admin/</link>
+      <link>https://renebidart.com/authors/admin/</link>
     </image>
     
   </channel>
