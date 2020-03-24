@@ -5,12 +5,31 @@
     <link>https://renebidart.com/post/</link>
       <atom:link href="https://renebidart.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://renebidart.com/post/</link>
     </image>
+    
+    <item>
+      <title>Open Research 8: Optimizing Affine Transforms in VAEs</title>
+      <link>https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/</guid>
+      <description>&lt;h3 id=&#34;optimizing-affine-transforms-in-vaes&#34;&gt;Optimizing Affine Transforms in VAEs&lt;/h3&gt;
+&lt;p&gt;Our goal is to create a VAE which will only encode a subset of affine transforms, but generalize to all. This is shown below:
+&lt;img src=&#34;../avae_3d.png&#34; alt=&#34;avae_3d.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://renebidart.com/post/or5/2020-03-02-open-research-5/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Previously&lt;/a&gt; we showed takes a higher capacity VAE to encode all possible orientations of an object, compared to encoding a single orientation. Our goal is to create a smaller model by only encoding a subset of all orientations, but still generalize to all orientations at inference. But how can we do this, given a dataset at random orientations?&lt;/p&gt;
+&lt;p&gt;Because the VAE is a generative model, we can the optimize an affine transform to find the orinetation at which the VAE best encodes the data, or has lowest loss. Our approach is to use an inner optimization loop during training to optimize this affine transform. The goal is that this will force the model to encode only a subset of the distribution. Then at inference time, this affine optimization can be used to allow the model to generalize to all orientations.&lt;/p&gt;
+&lt;p&gt;Normally stochastic gradient descent is used to update the parameters of the network to reduce the loss of the VAE. Here we will take another approach, where the forward pass of the VAE will include an optimization over a set of parameters, where the parameters are optimized to reduce the VAE&amp;rsquo;s loss, maximizing the ELBO. These are the parameters of an affine transform, so the process corresponds to finding the optimal orientation to encode an object at. This optimization objective is shown as:&lt;/p&gt;
+&lt;p&gt;$\underset{\alpha}{\text{argmin}}\{ L_{VAE}[\tau_{\alpha}^{-1}(p_\rho(q_\phi(\tau_{\alpha}(x))))]\}$&lt;/p&gt;
+&lt;p&gt;To train a network of this form is very expensive, because the above optimization must be solved once for each forward pass. As I discussed 
+&lt;a href=&#34;https://renebidart.com/post/or7/2020-03-17-open-research-7/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;before&lt;/a&gt;, optimizing $\alpha$ is differentiable, but is likely to get caught in a local optima. To overcome this, we evaluate the performance at a number of different random initializations of $\alpha$, and then select the top k of these initializations to do gradient descent on. Here we used 32 random initializations, and did gradient descent on the top 8 of these.&lt;/p&gt;
+&lt;p&gt;These tests take a while to run, so we&amp;rsquo;ll look at results later, and give a rigorous interpretation of the above in terms of variational inference.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Open Research 7: Differentiable Affine Transforms</title>
