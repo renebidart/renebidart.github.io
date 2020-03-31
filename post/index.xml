@@ -5,7 +5,7 @@
     <link>https://renebidart.com/post/</link>
       <atom:link href="https://renebidart.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
@@ -13,10 +13,51 @@
     </image>
     
     <item>
+      <title>Keeping up with ML Research</title>
+      <link>https://renebidart.com/post/2020-03-or9-up/2020-03-25-open-research-9/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://renebidart.com/post/2020-03-or9-up/2020-03-25-open-research-9/</guid>
+      <description>&lt;h2 id=&#34;how-to-keep-up-with-deep-learning-research&#34;&gt;How to keep up with deep learning research?&lt;/h2&gt;
+&lt;p&gt;When I started my PhD I was totally overwhelmed at the amount of deep learning research being produced. Keeping up with research is important in any field, but its so much more difficult in a fast moving field like machine learning.&lt;/p&gt;
+&lt;p&gt;The fastest approach is to always read summaries (blogs, twitter threads, or newsletters) of papers before digging into them, because papers are slow to read. I made it a point that if something was worth looking at for more than 30 seconds, I&amp;rsquo;d write a quick summary of it to make sure I was understanding the main points.  My approach used to be to spend one day per week reviewing this (less now), because many newsletters come out every week, and it&amp;rsquo;s easy to sort other sources like reddit by top weekly.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;Arxiv Sanity and Papers with code are probably the best way to see what real researchers are interested in:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.arxiv-sanity.com/top?timefilter=week&amp;amp;vfilter=all&#34;&gt;http://www.arxiv-sanity.com/top?timefilter=week&amp;amp;vfilter=all&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperswithcode.com/&#34;&gt;https://paperswithcode.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Reddit is good, lots of smart people but high percentage of idiots and beginners, so lots of basic/clickbait stuff gets highly upvoted: &lt;a href=&#34;https://www.reddit.com/r/MachineLearning/top/?t=week&#34;&gt;https://www.reddit.com/r/MachineLearning/top/?t=week&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;These are the best newsletters:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://jack-clark.net/&#34;&gt;https://jack-clark.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.deeplearning.ai/thebatch/&#34;&gt;https://www.deeplearning.ai/thebatch/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rohinshah.com/alignment-newsletter/&#34;&gt;https://rohinshah.com/alignment-newsletter/&lt;/a&gt; (good but very focused on AI safety)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chinai.substack.com/&#34;&gt;https://chinai.substack.com/&lt;/a&gt; (China specific, but useful because so much research and implementation happens there)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As far as legit research these are the best organizations to look at. They&amp;rsquo;re good at hyping their research, so checking this could be redundant:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/&#34;&gt;https://openai.com/blog/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepmind.com/blog&#34;&gt;https://deepmind.com/blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ai.googleblog.com/&#34;&gt;https://ai.googleblog.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These rarely publish but are higher quality:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://distill.pub/&#34;&gt;https://distill.pub/&lt;/a&gt; (really good, but will take some time because you actually learn things reading it)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thegradient.pub/&#34;&gt;https://thegradient.pub/&lt;/a&gt; (good quality blog)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There&amp;rsquo;s a ton of good people on twitter, I made an account specifically as a news source, but most people recommend you actually engage with people. I made a list of some good ones:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/i/lists/1217249059016204288&#34;&gt;https://twitter.com/i/lists/1217249059016204288&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-much-time-to-spend-on-this&#34;&gt;How much time to spend on this?&lt;/h2&gt;
+&lt;p&gt;This is the classic exploration-exploitation problem in reinforcement learning, and there&amp;rsquo;s no right or wrong way to do it. Spending more time keeping up with random results in related fields to your core work lets you make better connections between fields, and can give you inspiration, but can easily eat up too much time. Once you&amp;rsquo;ve setted on a topic the key is learning to filter the research relevant to your subfield.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s important to remember learning the basics is more important that furiously reading all the most recent research. Most research is quickly forgotten, and 5 years later the whole field will be condenced into a one semester course for undergrads. As long as you have a general idea of the field and anything relevant to your specific subfield you&amp;rsquo;ll probably be fine, and extra time is better spent producing something.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Open Research 8: Optimizing Affine Transforms in VAEs</title>
-      <link>https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/</link>
+      <link>https://renebidart.com/post/2020-03-or8-avae-opt/2020-03-22-open-research-8/</link>
       <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/</guid>
+      <guid>https://renebidart.com/post/2020-03-or8-avae-opt/2020-03-22-open-research-8/</guid>
       <description>&lt;h3 id=&#34;optimizing-affine-transforms-in-vaes&#34;&gt;Optimizing Affine Transforms in VAEs&lt;/h3&gt;
 &lt;p&gt;Our goal is to create a VAE which will only encode a subset of affine transforms, but generalize to all. This is shown below:
 &lt;img src=&#34;../avae_3d.png&#34; alt=&#34;avae_3d.png&#34;&gt;&lt;/p&gt;
@@ -320,6 +361,37 @@ who ultimately do important things, although people who work with doors closed o
 &lt;p&gt;It is exciting to have the freedom to choose research projects, but there&amp;rsquo;s a lot of pressure. Choosing the wrong topic means months of wasted effort. If you don&amp;rsquo;t do good research you don&amp;rsquo;t get rewarded, unless you&amp;rsquo;re in love with the idea of being a &amp;ldquo;Dr.&amp;quot;, or are doing doing a PhD for immigration purposes.&lt;/p&gt;
 &lt;p&gt;The issue is the exploration-exploitation trade-off. Do we give up on something, because it doesn&amp;rsquo;t look like a good research direction, or follow through with it because starting over again is so risky?  We both need to pick the right topic, and work on it for a long time to do anything great.&lt;/p&gt;
 &lt;p&gt;It is hard to implement a simple strategy like epsilon-greedy when the rewards are delayed. I don&amp;rsquo;t have a good intuition if a project is going well, even a month into it. My guess is so far execution has been the limiting factor for me. At the same time I&amp;rsquo;m conflicted, I don&amp;rsquo;t want to produce low quality research for the hell of it, but by abandoning projects halfway through I&amp;rsquo;ve guaranteed that&amp;rsquo;s all I&amp;rsquo;d do.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What I Learned in Hong Kong</title>
+      <link>https://renebidart.com/post/2020-01-11-hk/2020-01-11-what-i-learned-in-hong-kong/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://renebidart.com/post/2020-01-11-hk/2020-01-11-what-i-learned-in-hong-kong/</guid>
+      <description>&lt;p&gt;I spent the last few months interning at Shell Street Labs in Hong Kong (September-December 2020), and this opened my eyes to the mess that is media, propaganda, and group identity.&lt;/p&gt;
+&lt;h3 id=&#34;media-bullshit&#34;&gt;Media Bullshit&lt;/h3&gt;
+&lt;p&gt;I made it a point to follow some Hong Kong, Western, and CCP news sources on twitter. The news was divided over if the police or the protesters caused of most of the violence, but it was all sensationalist. The one thing they were in agreement about was that Hong Kong and the protests were dangerous, but this was the only thing that wasn&amp;rsquo;t true.&lt;/p&gt;
+&lt;p&gt;I expected the protests to be filled with violent people ready for war, like what was shown in the news. The reality was totally different, it was mostly innocent innocent, skinny university age kids, with a few elderly people and children. There were so many couples holding hands walking through the protests, I couldn&amp;rsquo;t believe what was going on. This didn&amp;rsquo;t look like they were capable of anything like I&amp;rsquo;d seen in the news. Most people ran from tear gas, not towards it.&lt;/p&gt;
+&lt;p&gt;The violence and destruction shown on the news did happen, but it was a small groups of people at the end of a sea of protesters. On the news the most extreme events are repeated over and over until another crazy thing happens, that can replaces. At the end of the day Hong Kong is still much less dangerous than a place like Detroit, no matter how much more media coverage it gets.&lt;/p&gt;
+&lt;p&gt;Both the protesters and the CCP media were promoting bullshit. I expected more from the CCP, but really both sides continually distort reality to convince you of their side of the story. The desire to maximise views can be as misleading as intentional government propaganda. Now I have less trust in anything I see. I always questioned things for accuracy, but now I the focus is more on how the truth is distorted rather than outright fake news.&lt;/p&gt;
+&lt;h3 id=&#34;nothing-brings-people-together-more-than-a-common-enemy&#34;&gt;Nothing brings people together more than a common enemy&lt;/h3&gt;
+&lt;p&gt;At first I couldn&amp;rsquo;t understand why so many people would be willing to protest week after week, wasting their weekends in the streets? There was something more to this, and it wasn&amp;rsquo;t until I actually saw the protest that I understood.&lt;/p&gt;
+&lt;p&gt;Even as an outsider looking in seeing these protests gives you a strange feeling. All these masked people who barely knew each other had a connection I&amp;rsquo;ve never seen before, it felt like this was the most united I&amp;rsquo;ve ever seen a group of people. Having an enemy unites people like nothing else, and I&amp;rsquo;ve noticed more and more this is the backbone of propaganda across the world.&lt;/p&gt;
+&lt;p&gt;How much does having a clear enemy explain the recent success of China and the current dysfunction in the west? Would there be so much partisan bullshit if we feared China as much as they fear us? Would there be so much pressure to attack each other over pronouns and definitions of feminism if we had some real danger? I don&amp;rsquo;t know the answer, but realising that something so horrible is what unites us best wasn&amp;rsquo;t a good feeling.&lt;/p&gt;
+&lt;p&gt;I think there&amp;rsquo;s another reason protesting became popular, and that&amp;rsquo;s that it became cool. Protesting is a high status activity for young people, and social media makes it possible for everyone to know you&amp;rsquo;re protesting, so you&amp;rsquo;re more than another masked person in a crowd. There&amp;rsquo;s protest art all over social media, and even plenty of Tinder profiles saying &amp;ldquo;No cops&amp;rdquo; or &amp;ldquo;香港人加油&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;division&#34;&gt;Division&lt;/h3&gt;
+&lt;p&gt;Why is it that people who agree on 99% of things and are good friends would be willing to kill each other for some abstract idea like nationalism or freedom? I met multiple people who had their relationships with coworkers and family change when this religious disagreement was brought into the forefront. I knew in abstract that this could happen, but seeing this in reality was very uncomfortable.&lt;/p&gt;
+&lt;p&gt;It seemed especially strange for mainland Chinese people, who after living in Hong Kong for many years and even learning the Cantonese language to considered the outsider or even the enemy - someone who was brought here by the CCP to help conquer Hong Kong. Are they only immigrants, or are they settlers like the British were, bringing their own culture and their own language on behalf of the CCP? Modern day colonialists forcing a single definition of what it means to be Chinese? Why must the Mainland Chinese impose their will on the Hong Kong people?&lt;/p&gt;
+&lt;p&gt;Or are the protestors the problem, being childish and demanding their own special treatment from China? Or even traitors for preferring Western style governance after all the success of China? Even supporting violence against innocent people to achieve these pointless goals?&lt;/p&gt;
+&lt;p&gt;Everyone accuses the other side of being brainwashed. The Hong Kong people are being brainwashed by not having a good nationalist education, and the mainland Chinese people are because of it. But why is it so hard to see the other side?&lt;/p&gt;
+&lt;p&gt;I think we&amp;rsquo;re designed to not be open minded. Why do Chinese people will reflexively mention how much better Shenzhen is than Hong Kong whenever Shenzhen is brought up? Or if you mentioned Cantonese is a different language then Mandarin, you’re quickly corrected that it’s a dialect, not a language. How do they come up with this strangely pedantic statement so consistently?&lt;/p&gt;
+&lt;p&gt;At first I thought there was something special about their government&amp;rsquo;s propaganda, that they will not only make someone believe something, but also to consistently be vocal about it. But this isn&amp;rsquo;t right, this is something that happens to us all.&lt;/p&gt;
+&lt;p&gt;I think we have a natural defence mechanism to preserve our religion, so whenever we notice a threat (consciously or unconsciously), we attack it. It is similar to why people are so quick to insult Trump, or anything that reminds them people have different opinions. Chinese people on some level know that a preference for Hong Kong over carefully designed Shenzhen in spite of all its problems is an attack on their government, the same way the fact the existence of Trump as president is a constant attack on progressive views.&lt;/p&gt;
+&lt;h3 id=&#34;hope&#34;&gt;Hope?&lt;/h3&gt;
+&lt;p&gt;I can&amp;rsquo;t help but feel bad for everyone stuck in this situation, it seems like the people of Hong Kong are just pawns for more powerful people. Foreigners use it as their capitalist paradise, either wanting protesters killed for disrupting their way to work / LKF, or siding with protesters but unwilling to do anything to hinder their chance of work in mainland China. The mainland Chinese view it as something to be conquered to preserve the harmony of their great country. The CIA sees this as way to divide China. The Hong Kong government only cares about the richest people and the CCP, resulting in the housing crisis and continued protests.&lt;/p&gt;
+&lt;p&gt;Is there a solution?  My guess is no, unless the people of Hong Kong embrace Chinese nationalism they will be left for a slow decline by the CCP. This is unlikely, because there has been a decline in Hong Kong people identifying as Chinese since 2008, which is around the time China increased its nationalism, deciding that there was a single way to be Chinese which was not going to include the current culture of Hong Kong.&lt;/p&gt;
+&lt;p&gt;By creating Shenzhen, the CCP has shown that the China can be superior economically to the West, and after seeing this the people of Hong Kong were supposed to see the glory of China. But so many people in Hong Kong are unwilling to give up their values of self determination and freedom, which are totally unacceptable for China. The best way forward for the CCP is to encourage incompetent governments like Carrie Lam that are slowly destroying Hong Kong. Chinese news sources will continue to show the disaster this has caused, both economically and for social harmony, strengthening the resolve of Chinese people that their form of government is best.&lt;/p&gt;
 </description>
     </item>
     
@@ -1185,38 +1257,95 @@ Capsules — I’m not sure how this fits in with the rest, but it is an att
     </item>
     
     <item>
-      <title></title>
-      <link>https://renebidart.com/post/2020-01-11-hk/2020-01-11-what-i-learned-in-hong-kong/</link>
+      <title>Open Research 10: Literature Review</title>
+      <link>https://renebidart.com/post/2020-03-or10-lit/2020-03-25-open-research-9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://renebidart.com/post/2020-01-11-hk/2020-01-11-what-i-learned-in-hong-kong/</guid>
-      <description>&lt;h2 id=&#34;title-what-i-learned-in-hong-kong&#34;&gt;neyman-paper&amp;mdash;
-author: Rene Bidart
-date: &amp;ldquo;2020-01-11T00:00:00Z&amp;rdquo;
-title: What I Learned in Hong Kong&lt;/h2&gt;
-&lt;h2 id=&#34;香港被和谐&#34;&gt;香港被和谐&lt;/h2&gt;
-&lt;p&gt;I spent the last few months interning at Shell Street Labs in Hong Kong (September-December 2020), and this opened my eyes to the mess that is media, propaganda, and group identity.&lt;/p&gt;
-&lt;h3 id=&#34;media-bullshit&#34;&gt;Media Bullshit&lt;/h3&gt;
-&lt;p&gt;I made it a point to follow some Hong Kong, Western, and CCP news sources on twitter. The news was divided over if the police or the protesters caused of most of the violence, but it was all sensationalist. The one thing they were in agreement about was that Hong Kong and the protests were dangerous, but this was the only thing that wasn&amp;rsquo;t true.&lt;/p&gt;
-&lt;p&gt;I expected the protests to be filled with violent people ready for war, like what was shown in the news. The reality was totally different, it was mostly innocent innocent, skinny university age kids, with a few elderly people and children. There were so many couples holding hands walking through the protests, I couldn&amp;rsquo;t believe what was going on. This didn&amp;rsquo;t look like they were capable of anything like I&amp;rsquo;d seen in the news. Most people ran from tear gas, not towards it.&lt;/p&gt;
-&lt;p&gt;The violence and destruction shown on the news did happen, but it was a small groups of people at the end of a sea of protesters. On the news the most extreme events are repeated over and over until another crazy thing happens, that can replaces. At the end of the day Hong Kong is still much less dangerous than a place like Detroit, no matter how much more media coverage it gets.&lt;/p&gt;
-&lt;p&gt;Both the protesters and the CCP media were promoting bullshit. I expected more from the CCP, but really both sides continually distort reality to convince you of their side of the story. The desire to maximise views can be as misleading as intentional government propaganda. Now I have less trust in anything I see. I always questioned things for accuracy, but now I the focus is more on how the truth is distorted rather than outright fake news.&lt;/p&gt;
-&lt;h3 id=&#34;nothing-brings-people-together-more-than-a-common-enemy&#34;&gt;Nothing brings people together more than a common enemy&lt;/h3&gt;
-&lt;p&gt;At first I couldn&amp;rsquo;t understand why so many people would be willing to protest week after week, wasting their weekends in the streets? There was something more to this, and it wasn&amp;rsquo;t until I actually saw the protest that I understood.&lt;/p&gt;
-&lt;p&gt;Even as an outsider looking in seeing these protests gives you a strange feeling. All these masked people who barely knew each other had a connection I&amp;rsquo;ve never seen before, it felt like this was the most united I&amp;rsquo;ve ever seen a group of people. Having an enemy unites people like nothing else, and I&amp;rsquo;ve noticed more and more this is the backbone of propaganda across the world.&lt;/p&gt;
-&lt;p&gt;How much does having a clear enemy explain the recent success of China and the current dysfunction in the west? Would there be so much partisan bullshit if we feared China as much as they fear us? Would there be so much pressure to attack each other over pronouns and definitions of feminism if we had some real danger? I don&amp;rsquo;t know the answer, but realising that something so horrible is what unites us best wasn&amp;rsquo;t a good feeling.&lt;/p&gt;
-&lt;p&gt;I think there&amp;rsquo;s another reason protesting became popular, and that&amp;rsquo;s that it became cool. Protesting is a high status activity for young people, and social media makes it possible for everyone to know you&amp;rsquo;re protesting, so you&amp;rsquo;re more than another masked person in a crowd. There&amp;rsquo;s protest art all over social media, and even plenty of Tinder profiles saying &amp;ldquo;No cops&amp;rdquo; or &amp;ldquo;香港人加油&amp;rdquo;.&lt;/p&gt;
-&lt;h3 id=&#34;division&#34;&gt;Division&lt;/h3&gt;
-&lt;p&gt;Why is it that people who agree on 99% of things and are good friends would be willing to kill each other for some abstract idea like nationalism or freedom? I met multiple people who had their relationships with coworkers and family change when this religious disagreement was brought into the forefront. I knew in abstract that this could happen, but seeing this in reality was very uncomfortable.&lt;/p&gt;
-&lt;p&gt;It seemed especially strange for mainland Chinese people, who after living in Hong Kong for many years and even learning the Cantonese language to considered the outsider or even the enemy - someone who was brought here by the CCP to help conquer Hong Kong. Are they only immigrants, or are they settlers like the British were, bringing their own culture and their own language on behalf of the CCP? Modern day colonialists forcing a single definition of what it means to be Chinese? Why must the Mainland Chinese impose their will on the Hong Kong people?&lt;/p&gt;
-&lt;p&gt;Or are the protestors the problem, being childish and demanding their own special treatment from China? Or even traitors for preferring Western style governance after all the success of China? Even supporting violence against innocent people to achieve these pointless goals?&lt;/p&gt;
-&lt;p&gt;Everyone accuses the other side of being brainwashed. The Hong Kong people are being brainwashed by not having a good nationalist education, and the mainland Chinese people are because of it. But why is it so hard to see the other side?&lt;/p&gt;
-&lt;p&gt;I think we&amp;rsquo;re designed to not be open minded. Why do Chinese people will reflexively mention how much better Shenzhen is than Hong Kong whenever Shenzhen is brought up? Or if you mentioned Cantonese is a different language then Mandarin, you’re quickly corrected that it’s a dialect, not a language. How do they come up with this strangely pedantic statement so consistently?&lt;/p&gt;
-&lt;p&gt;At first I thought there was something special about their government&amp;rsquo;s propaganda, that they will not only make someone believe something, but also to consistently be vocal about it. But this isn&amp;rsquo;t right, this is something that happens to us all.&lt;/p&gt;
-&lt;p&gt;I think we have a natural defence mechanism to preserve our religion, so whenever we notice a threat (consciously or unconsciously), we attack it. It is similar to why people are so quick to insult Trump, or anything that reminds them people have different opinions. Chinese people on some level know that a&amp;rsquo; preference for Hong Kong over carefully designed Shenzhen in spite of all its problems is an attack on their government, the same way the fact the existence of Trump as president is a constant attack on progressive views.&lt;/p&gt;
-&lt;h3 id=&#34;hope&#34;&gt;Hope?&lt;/h3&gt;
-&lt;p&gt;I can&amp;rsquo;t help but feel bad for everyone stuck in this situation, it seems like the people of Hong Kong are just pawns for more powerful people. Foreigners use it as their capitalist paradise, either wanting protesters killed for disrupting their way to work / LKF, or siding with protesters but unwilling to do anything to hinder their chance of work in mainland China. The mainland Chinese view it as something to be conquered to preserve the harmony of their great country. The CIA sees this as way to divide China. The Hong Kong government only cares about the richest people and the CCP, resulting in the housing crisis and continued protests.&lt;/p&gt;
-&lt;p&gt;Is there a solution?  My guess is no, unless the people of Hong Kong embrace Chinese nationalism they will be left for a slow decline by the CCP. This is unlikely, because there has been a decline in Hong Kong people identifying as Chinese since 2008, which is around the time China increased its nationalism, deciding that there was a single way to be Chinese which was not going to include the current culture of Hong Kong.&lt;/p&gt;
-&lt;p&gt;By creating Shenzhen, the CCP has shown that the China can be superior economically to the West, and after seeing this the people of Hong Kong were supposed to see the glory of China. But so many people in Hong Kong are unwilling to give up their values of self determination and freedom, which are totally unacceptable for China. The best way forward for the CCP is to encourage incompetent governments like Carrie Lam that are slowly destroying Hong Kong. Chinese news sources will continue to show the disaster this has caused, both economically and for social harmony, strengthening the resolve of Chinese people that their form of government is best.&lt;/p&gt;
+      <guid>https://renebidart.com/post/2020-03-or10-lit/2020-03-25-open-research-9/</guid>
+      <description>&lt;h2 id=&#34;vae-intuition&#34;&gt;VAE intuition:&lt;/h2&gt;
+&lt;p&gt;BETA VAE!
+
+&lt;a href=&#34;https://ermongroup.github.io/blog/a-tutorial-on-mmd-variational-autoencoders/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ermongroup.github.io/blog/a-tutorial-on-mmd-variational-autoencoders/&lt;/a&gt;
+
+&lt;a href=&#34;https://arxiv.org/pdf/1706.02262.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1706.02262.pdf&lt;/a&gt;
+Tutorial:
+
+&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1285773?casa_token=ikcvwnjzvHQAAAAA%3A0KzUTSM4saUASpVBTfK0nVJxhlh41o5FKFhQkmMAd2uIOxollNkbQEgznDrpZkwEPsVVgDEcPMII&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1285773?casa_token=ikcvwnjzvHQAAAAA%3A0KzUTSM4saUASpVBTfK0nVJxhlh41o5FKFhQkmMAd2uIOxollNkbQEgznDrpZkwEPsVVgDEcPMII&lt;/a&gt;
+Less important:
+
+&lt;a href=&#34;https://arxiv.org/abs/1509.00519&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/1509.00519&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;disentangled-in-general&#34;&gt;Disentangled (in general)&lt;/h2&gt;
+&lt;p&gt;Previous work has shown in general 
+&lt;a href=&#34;https://arxiv.org/pdf/1811.12359.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1811.12359.pdf&lt;/a&gt; the unsupervised learning of disentangled representations requires inductive bias on the model and the data. For this work we will focus on a particular .&lt;/p&gt;
+&lt;p&gt;Following the results in this paper, we are focusing on a specific case of learning a disentangled representation, with a specific goal. In this work we will focus on the aim of disentangling object orientation and shape, with the goal of allowing lower capacity models to generalize better.&lt;/p&gt;
+&lt;p&gt;There is no formal definition of what it means to be a disentangled representation, but intuitively … In this work we will focus on disentangling the shape of an object and its orientation.&lt;/p&gt;
+&lt;p&gt;The idea is the model has to &amp;ldquo;learn&amp;rdquo; what the object is at each orientation, rather than representing it as a single object with an orientation.&lt;/p&gt;
+&lt;h2 id=&#34;supervised&#34;&gt;Supervised:&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://openaccess.thecvf.com/content_ICCV_2017/papers/Worrall_Interpretable_Transformations_With_ICCV_2017_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://openaccess.thecvf.com/content_ICCV_2017/papers/Worrall_Interpretable_Transformations_With_ICCV_2017_paper.pdf&lt;/a&gt;
+Given the relative rotation between a set of 2d faces, they use an autoencoder style network to learn a laten representation of the face that can be transformed by the 3d rotation.  This enforces that the latent representation accurately reflects 3d structure of the face, because it is transformed in 3d space.&lt;/p&gt;
+&lt;h4 id=&#34;weakly-supervised&#34;&gt;Weakly supervised&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=H1e1XeXlP4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://openreview.net/pdf?id=H1e1XeXlP4&lt;/a&gt;
+Using groups of observations:
+
+&lt;a href=&#34;https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPaper/16521&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPaper/16521&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;inverse-graphics-style&#34;&gt;INVERSE GRAPHICS Style&lt;/h2&gt;
+&lt;p&gt;pre-specified decoders:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;review these again
+
+&lt;a href=&#34;http://papers.nips.cc/paper/7297-visual-object-networks-image-generation-with-disentangled-3d-representations.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://papers.nips.cc/paper/7297-visual-object-networks-image-generation-with-disentangled-3d-representations.pdf&lt;/a&gt;
+They separate image generation into shape, viewpoint and texture by rendering a 3d shape, then rendering a 2.5D (silhouette and depth map), and finally adds texture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn a disentangled generative model for images by explicitly specifying the generation in terms of shape, viewpoint, and texture. Use a 3D shape generation network, which is then fed into a renderer to show this in 2D, including viewpoint and texture.
+Does not disentangle the 3D pose of the object, ((this would be a good extension of our work, using this to extend it to generating 2d with viewpoint and texture.)) -reread this more closely&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://papers.nips.cc/paper/7459-3d-aware-scene-manipulation-via-inverse-graphics.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://papers.nips.cc/paper/7459-3d-aware-scene-manipulation-via-inverse-graphics.pdf&lt;/a&gt;
+Here they use a multiple encoder networks to generate semantic segmentation, object pose and orientation, and texture parameters from an image. The image is then reconstructed by &amp;hellip;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1906.03281.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1906.03281.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;half--inverse-graphics-style&#34;&gt;Half- INVERSE GRAPHICS Style&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://openaccess.thecvf.com/content_CVPR_2019/papers/Xing_Unsupervised_Disentangling_of_Appearance_and_Geometry_by_Deformable_Generator_Network_CVPR_2019_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://openaccess.thecvf.com/content_CVPR_2019/papers/Xing_Unsupervised_Disentangling_of_Appearance_and_Geometry_by_Deformable_Generator_Network_CVPR_2019_paper.pdf&lt;/a&gt;
+They disentangle appearance and geometry by using different generator for each and combining the results using a warping function to create an image. They also extend this to a VAE, where they use two networks to infer the latent vectors describing appearance and geometry.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://papers.nips.cc/paper/8387-explicit-disentanglement-of-appearance-and-perspective-in-generative-models.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://papers.nips.cc/paper/8387-explicit-disentanglement-of-appearance-and-perspective-in-generative-models.pdf&lt;/a&gt;
+They extent a VAE to consider two separate latent spaces, a perspective and appearance latent space,
+((((Read this for inspiration on paper writing))) Good refs on what counts as disentangled, and good lit review.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1903.06946.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1903.06946.pdf&lt;/a&gt;
+
+&lt;a href=&#34;https://arxiv.org/pdf/1806.06298.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1806.06298.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;very-weak-priors-over-latent-space-model-structure&#34;&gt;very weak priors over latent space, model structure:&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://papers.nips.cc/paper/7174-learning-disentangled-representations-with-semi-supervised-deep-generative-models.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://papers.nips.cc/paper/7174-learning-disentangled-representations-with-semi-supervised-deep-generative-models.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;some-metrics-and-methods-important&#34;&gt;Some metrics and methods: (important)&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1711.00848.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1711.00848.pdf&lt;/a&gt;
+
+&lt;a href=&#34;http://papers.nips.cc/paper/7527-isolating-sources-of-disentanglement-in-variational-autoencoders.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://papers.nips.cc/paper/7527-isolating-sources-of-disentanglement-in-variational-autoencoders.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;???&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1906.11732&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/1906.11732&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;equivariance&#34;&gt;Equivariance&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://dspace.mit.edu/handle/1721.1/113001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dspace.mit.edu/handle/1721.1/113001&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;important-3d-models&#34;&gt;Important 3d models&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://papers.nips.cc/paper/6600-unsupervised-learning-of-3d-structure-from-images.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://papers.nips.cc/paper/6600-unsupervised-learning-of-3d-structure-from-images.pdf&lt;/a&gt;
+
+&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/7469347&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ieeexplore.ieee.org/abstract/document/7469347&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;optimizing-affine-transforms-in-vaes&#34;&gt;Optimizing Affine Transforms in VAEs&lt;/h3&gt;
+&lt;p&gt;Our goal is to create a VAE which will only encode a subset of affine transforms, but generalize to all. This is shown below:
+&lt;img src=&#34;../avae_3d.png&#34; alt=&#34;avae_3d.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://renebidart.com/post/or5/2020-03-02-open-research-5/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Previously&lt;/a&gt; we showed takes a higher capacity VAE to encode all possible orientations of an object, compared to encoding a single orientation. Our goal is to create a smaller model by only encoding a subset of all orientations, but still generalize to all orientations at inference. But how can we do this, given a dataset at random orientations?&lt;/p&gt;
+&lt;p&gt;Because the VAE is a generative model, we can the optimize an affine transform to find the orinetation at which the VAE best encodes the data, or has lowest loss. Our approach is to use an inner optimization loop during training to optimize this affine transform. The goal is that this will force the model to encode only a subset of the distribution. Then at inference time, this affine optimization can be used to allow the model to generalize to all orientations.&lt;/p&gt;
+&lt;p&gt;Normally stochastic gradient descent is used to update the parameters of the network to reduce the loss of the VAE. Here we will take another approach, where the forward pass of the VAE will include an optimization over a set of parameters, where the parameters are optimized to reduce the VAE&amp;rsquo;s loss, maximizing the ELBO. These are the parameters of an affine transform, so the process corresponds to finding the optimal orientation to encode an object at. This optimization objective is shown as:&lt;/p&gt;
+&lt;p&gt;$\underset{\alpha}{\text{argmin}}\{ L_{VAE}[\tau_{\alpha}^{-1}(p_\rho(q_\phi(\tau_{\alpha}(x))))]\}$&lt;/p&gt;
+&lt;p&gt;To train a network of this form is very expensive, because the above optimization must be solved once for each forward pass. As I discussed 
+&lt;a href=&#34;https://renebidart.com/post/or7/2020-03-17-open-research-7/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;before&lt;/a&gt;, optimizing $\alpha$ is differentiable, but is likely to get caught in a local optima. To overcome this, we evaluate the performance at a number of different random initializations of $\alpha$, and then select the top k of these initializations to do gradient descent on. Here we used 32 random initializations, and did gradient descent on the top 8 of these.&lt;/p&gt;
+&lt;p&gt;These tests take a while to run, so we&amp;rsquo;ll look at results later, and give a rigorous interpretation of the above in terms of variational inference.&lt;/p&gt;
 </description>
     </item>
     
