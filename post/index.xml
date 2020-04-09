@@ -5,7 +5,7 @@
     <link>https://renebidart.com/post/</link>
       <atom:link href="https://renebidart.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
@@ -13,39 +13,70 @@
     </image>
     
     <item>
-      <title>Keeping up with ML Research</title>
+      <title>Money Multiplier is Bullshit</title>
+      <link>https://renebidart.com/post/2020-04-07-money/2020-04-07-how-money-works/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://renebidart.com/post/2020-04-07-money/2020-04-07-how-money-works/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Undergraduate economics commonly teaches that banks take in deposits and lend these out, increasing the money supply&lt;/strong&gt;. This is wrong. The incorrect depiction of a fractional reserve banking system has caused 
+&lt;a href=&#34;https://www.youtube.com/watch?v=3mUi9IZb4T4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;widespread&lt;/a&gt; 
+&lt;a href=&#34;https://www.youtube.com/watch?v=93_Va7I7Lgg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;confusion&lt;/a&gt;, with some people thinking of it as a 
+&lt;a href=&#34;https://www.youtube.com/results?search_query=fractional&amp;#43;reserve&amp;#43;banking&amp;#43;conspiracy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;strange conspiracy&lt;/a&gt;, and is a staple of paranoid ramblings on Facebook. It is taught that once banks acquire deposits, these deposits are then &amp;ldquo;multiplied up&amp;rdquo; by some ratio, called the money multiplier, as they are repeatedly lent out, increasing the money supply:&lt;/p&gt;
+&lt;p&gt;$$ money multiplier = \frac{1}{Reserve Ratio} $$&lt;/p&gt;
+&lt;p&gt;This left the conspiracy theorists confused, because it seems like theft. Banks are lying to depositors, saying their money is safe in the vault, when in reality it is being gambled on loans. This must be the work of (deep state, lizard people, Influential minority in finance)! The reality is that deposits are not lent out, and &lt;strong&gt;loans create deposits&lt;/strong&gt;, not the other way around.&lt;/p&gt;
+&lt;p&gt;If a bank wants to make a loan for $1,000,000 it just makes the money up, it doesn&amp;rsquo;t need to come from anywhere. After it is loaned out, the money is deposited in an account, creating deposits. Banks don&amp;rsquo;t look for deposits to loan out, they create money. They can make loans no matter how many deposits they currently have. &lt;strong&gt;Banks are not intermediaries that take in deposits and lend these out&lt;/strong&gt;. They create money.&lt;/p&gt;
+&lt;p&gt;Because of this, creating loans increases the money supply, and on the other hand replaying loans destroys money. But what limits are there on the amount of money created?&lt;/p&gt;
+&lt;p&gt;Banks are still heavily constrained in their actions, because they have to be profitable and have to comply with regulation. In addition, because interbank settlement is done using central bank money, banks are constantly looking for ways to get more so they able to transfer to other banks. This happens though attracting deposits to the bank, or borrowing reserves. Central Banks generally control the amount of money in the economy by setting the price of money through interest rates, or in extreme times through quantitive easing.&lt;/p&gt;
+&lt;p&gt;The money multiplier does get some key ideas right, that banks demand reserves, and that freer access to them can increase loans, but they have it backwards. Loans create deposits, not the other way around.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Keeping up with Deep Learning Research</title>
       <link>https://renebidart.com/post/2020-03-or9-up/2020-03-25-open-research-9/</link>
       <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://renebidart.com/post/2020-03-or9-up/2020-03-25-open-research-9/</guid>
-      <description>&lt;h2 id=&#34;how-to-keep-up-with-deep-learning-research&#34;&gt;How to keep up with deep learning research?&lt;/h2&gt;
-&lt;p&gt;When I started my PhD I was totally overwhelmed at the amount of deep learning research being produced. Keeping up with research is important in any field, but it&amp;rsquo;s so much more difficult in a fast moving field like machine learning.&lt;/p&gt;
-&lt;p&gt;The fastest approach is to always read summaries (blogs, twitter threads, or newsletters) of papers before digging into them, because papers are slow to read. I made it a point that if something was worth looking at for more than 30 seconds, I&amp;rsquo;d write a quick summary of it to make sure I was understanding the main points.  My approach used to be to spend one day per week reviewing this (less now), because many newsletters come out every week, and it&amp;rsquo;s easy to sort other sources like reddit by top weekly.&lt;/p&gt;
+      <description>&lt;p&gt;When I started my PhD I was overwhelmed trying to keep up with new research. Trying to read everything will take forever, but by not reading enough we risk rediscovering old ideas, or doing unimportant work. So can we balance this?&lt;/p&gt;
+&lt;p&gt;Here are a few lessons I learned:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Papers are often dense and filled with unnecessary math. Read summaries (blogs, twitter threads, or newsletters) to understand the paper and decide if it is worth reading.&lt;/li&gt;
+&lt;li&gt;If a paper is worth looking at for more than 30 seconds, write a quick summary of it to aid understanding and improve recall.  It&amp;rsquo;s too easy to convince yourself you know something out of laziness.&lt;/li&gt;
+&lt;li&gt;My approach was to spend one day per week reviewing research, because many newsletters come out every week, and it&amp;rsquo;s easy to sort other sources like reddit by top weekly.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;http://www.arxiv-sanity.com/top?timefilter=week&amp;amp;vfilter=all&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv Sanity&lt;/a&gt; and 
 &lt;a href=&#34;https://paperswithcode.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Papers with code&lt;/a&gt; are probably the best way to see what real researchers are interested in.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.reddit.com/r/MachineLearning/top/?t=week&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reddit machine learning&lt;/a&gt; is good, lots of smart people but high percentage of idiots and beginners, so lots of basic/clickbait stuff gets highly upvoted.&lt;/p&gt;
-&lt;p&gt;These are the best newsletters:&lt;/p&gt;
+&lt;p&gt;The best AI newsletters:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://jack-clark.net/&#34;&gt;https://jack-clark.net/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.deeplearning.ai/thebatch/&#34;&gt;https://www.deeplearning.ai/thebatch/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://rohinshah.com/alignment-newsletter/&#34;&gt;https://rohinshah.com/alignment-newsletter/&lt;/a&gt; (good but very focused on AI safety)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://chinai.substack.com/&#34;&gt;https://chinai.substack.com/&lt;/a&gt; (China specific, but useful because so much research and implementation happens there)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://jack-clark.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jack Clark&lt;/a&gt; - My favourite weekly overview of the latest ML research&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.deeplearning.ai/thebatch/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Batch&lt;/a&gt; - Another great weekly overview of ML research, from Andrew NG&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://rohinshah.com/alignment-newsletter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI Alignment&lt;/a&gt; - Good but very focused on AI safety&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://chinai.substack.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;China AI&lt;/a&gt; - China specific, but useful because so much research and implementation happens there&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;As far as legit research these are the best organizations to look at. They&amp;rsquo;re good at hyping their research, so checking this could be redundant:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/&#34;&gt;https://openai.com/blog/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://deepmind.com/blog&#34;&gt;https://deepmind.com/blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ai.googleblog.com/&#34;&gt;https://ai.googleblog.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://openai.com/blog/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://deepmind.com/blog&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Mind&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://ai.googleblog.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google AI&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;These rarely publish but are higher quality:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://distill.pub/&#34;&gt;https://distill.pub/&lt;/a&gt; (really good, but will take some time because you actually learn things reading it)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://thegradient.pub/&#34;&gt;https://thegradient.pub/&lt;/a&gt; (good quality blog)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://distill.pub/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distill&lt;/a&gt; (really good, but will take some time because you actually learn things reading it)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://thegradient.pub/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Gradient&lt;/a&gt; (good quality blog)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;There&amp;rsquo;s a ton of good people on twitter, I made an account specifically as a news source, but most people recommend you actually engage with people. I made a 
-&lt;a href=&#34;https://twitter.com/i/lists/1217249059016204288&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;list&lt;/a&gt; of some good ones:&lt;/p&gt;
+&lt;a href=&#34;https://twitter.com/i/lists/1217249059016204288&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;list of some good ones&lt;/a&gt; :&lt;/p&gt;
 &lt;h2 id=&#34;how-much-time-to-spend-on-this&#34;&gt;How much time to spend on this?&lt;/h2&gt;
 &lt;p&gt;This is the classic exploration-exploitation problem in reinforcement learning, and there&amp;rsquo;s no right or wrong way to do it. Spending more time keeping up with random results in related fields to your core work lets you make better connections between fields, and can give you inspiration, but can easily eat up too much time. Once you&amp;rsquo;ve setted on a topic the key is learning to filter the research relevant to your subfield.&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s important to remember learning the basics is more important that furiously reading all the most recent research. Most research is quickly forgotten, and 5 years later the whole field will be condensed into a one semester course for undergrads. As long as you have a general idea of the field and anything relevant to your specific subfield you&amp;rsquo;ll probably be fine, and extra time is better spent producing something.&lt;/p&gt;
