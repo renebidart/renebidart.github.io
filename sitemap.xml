@@ -4,16 +4,41 @@
   
   <url>
     <loc>https://renebidart.com/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://renebidart.com/post/2020-04-14-development/2020-04-14-economic-development/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <loc>https://renebidart.com/tags/crypto/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renebidart.com/tags/economics/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renebidart.com/post/2020-01-0-04-bitcoin/2020-01-0-04-bitcoin/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renebidart.com/tags/noise/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://renebidart.com/post/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renebidart.com/tags/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renebidart.com/post/2020-04-14-development/2020-04-14-economic-development/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -125,10 +150,6 @@
   </url>
   
   <url>
-    <loc>https://renebidart.com/post/2020-03-or10-lit/2020-03-25-open-research-9/</loc>
-  </url>
-  
-  <url>
     <loc>https://renebidart.com/publication_types/</loc>
   </url>
   
@@ -138,10 +159,6 @@
   
   <url>
     <loc>https://renebidart.com/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://renebidart.com/tags/</loc>
   </url>
   
 </urlset>
