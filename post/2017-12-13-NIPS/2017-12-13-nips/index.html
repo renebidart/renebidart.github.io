@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Rene Bidart">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Like many of the attendees, this was my first NIPS conference. Overall a great experience, and I doubt there is any substitute for meeting interesting people and learning about the current state of machine learning.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157504369-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-157504369-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu5e15e861ad43a166b29f0ae919c910d4_1675_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu5e15e861ad43a166b29f0ae919c910d4_1675_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Rene Bidart">
+  <meta property="og:url" content="https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/">
+  <meta property="og:title" content="NIPS 2017 Highlights | Rene Bidart">
+  <meta property="og:description" content="Like many of the attendees, this was my first NIPS conference. Overall a great experience, and I doubt there is any substitute for meeting interesting people and learning about the current state of machine learning."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2017-12-13T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2017-12-13T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/"
+  },
+  "headline": "NIPS 2017 Highlights",
+  
+  "datePublished": "2017-12-13T00:00:00Z",
+  "dateModified": "2017-12-13T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Rene Bidart"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rene Bidart",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://renebidart.com/images/icon_hu5e15e861ad43a166b29f0ae919c910d4_1675_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Like many of the attendees, this was my first NIPS conference. Overall a great experience, and I doubt there is any substitute for meeting interesting people and learning about the current state of machine learning."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>NIPS 2017 Highlights | Rene Bidart</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Rene Bidart</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Rene Bidart</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>NIPS 2017 Highlights</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 13, 2017
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    12 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Like many of the attendees, this was my first NIPS conference. Overall a great experience, and I doubt there is any substitute for meeting interesting people and learning about the current state of machine learning. Here I’ll mention a few of the highlights of the conference for me, and some of the weirdness.</p>
+<p>Money is flooding in from everywhere in AI, with desperate investors trying to get a piece of the pie. Free alcohol and parties every night was unexpected for an academic conference:</p>
+<table>
+<thead>
+<tr>
+<th><img src="../florida.png" alt="flo-rida"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:&ndash;:</td>
+</tr>
+<tr>
+<td><em>If this doesn’t signal a bubble I don’t know what does</em></td>
+</tr>
+</tbody>
+</table>
+<!-- <figcaption>*If this doesn’t signal a bubble I don’t know what does*</figcaption> -->
+<p>With this level of hype there can be some downsides:</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="../lineup.jpeg" alt="lineup.jpeg"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Over 8000 people attended, and they all needed to register</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rigor-vs-accuracy">Rigor vs. Accuracy</h2>
+<p>In the last few years the field of machine learning has become obsessed with the performance provided by larger and less interpretable deep neural networks. Not everyone is in love with the hype. According to Ali Rahimi:</p>
+<blockquote>
+<p>Machine learning isn’t the new electricity, it is alchemy.
+We should start from simple, easy to understand things and then move onto more complex things. Currently we apply brittle optimization techniques to loss surfaces we don’t understand</p>
+</blockquote>
+<p>Yann LeCun’s response:</p>
+<blockquote>
+<p>We often use methods before we fully understand them in engineering and it has made the world a better place. Don’t throw the baby out with the bathwater</p>
+</blockquote>
+<p>There was also a debate about model interpretability, where many of the same arguments are thrown around:</p>
+<blockquote>
+<p>Do you really want to be diagnosed by something you don’t understand?
+vs.</p>
+</blockquote>
+<blockquote>
+<p>We will choose an accurate model over an interpretable one when it is our body on the line.
+I think when deploying a model for real use we are facing a trade off between a complex model, and an ensemble of a simple model and human judgement. We know the complex model performs better on the test data, but we assume in real use the data distribution will change. The human/simple model will be more robust to changes in data distribution, because of the human’s debugging ability.</p>
+</blockquote>
+<p>We must decide if the increased accuracy of the complex model makes up for the danger of it generalizing less well than the human/simple model ensemble. Unfortunately I have no idea how to quantify how much better one model may generalize than the other, so we will continue arguing.</p>
+<hr>
+<h2 id="ml-for-healthcare">ML for Healthcare</h2>
+<p>Fei-Fei Li and the Stanford group noted that there are plenty of issues throughout the hospital — not just in pathology and radiology. They proposed some interesting problems and solutions:</p>
+<ul>
+<li>
+<a href="https://aicare.stanford.edu/projects/hand_hygiene/" target="_blank" rel="noopener"><strong>Hand Hygiene</strong></a> — More people dying from hospital caused infection than car crashes. They proposed using a CNN with spatial transformer net along with a tracking system to see peoples movement through the hospital.</li>
+<li>
+<a href="http://ai.stanford.edu/~syyeung/jin_nips_ml4h_2017.pdf" target="_blank" rel="noopener"><strong>Surgery evaluation</strong></a> — Using a CNN, locate and follow the movement of surgeon’s tools. Use unnecessary movements as a proxy for surgeons skill.</li>
+</ul>
+<p>Greg Corrado gave a interesting talk about how ML will change medicine:</p>
+<ol>
+<li><strong>Diagnostics</strong> — We know there will be a massive expansion in the use of imaging and the information that we get out of it. The question now is how do doctors and machines collaborate? There is always the problem of doctors not using the technology if it disrupts their workflow. We have lots of advances in pathology and radiology so far, and this will start saving lives very soon.</li>
+<li><strong>Care management and decision support</strong> — Electronic medical records are a mess with many coding systems and inconsistencies, and most data isn’t used by humans or Ml methods. Unstructured data is more difficult than something like radiology, but promising results have been shown. There is a lot of promise in making EHR smart, but this may take decades. Medical records -&gt;fihr resources</li>
+<li><strong>Personalized medicine</strong> — We are just getting started on this, but there are promising results in genetics and eventually this will be a crucial part of healthcare. Eventually we will use some kind of omics for all routine medical prescription, but this may be a long time away.</li>
+</ol>
+<h3 id="medical-imaging">Medical Imaging</h3>
+<ul>
+<li>We need more <em><strong>adaptive radiation treatment</strong></em>. Currently patients are moving too freely, and we don’t properly take into account of tumour location over time. We have a good idea how normal tissue responds to radiation, but are uncertain about tumour response, so more accuracy in radiation targeting would allow for higher doses and less side effects. 1% increase in radiation power can increase treatment success probability 1–2%.</li>
+<li>We must focus on <em><strong>end to end approaches for detection</strong></em>, segmentation, etc. Currently we often have an intermediate step of creating something that is visible to the doctor, but this may be inferior to an end to end model.</li>
+<li>Thanks to 
+<a href="http://www.niftynet.io/" target="_blank" rel="noopener"><strong>niftynet</strong></a>, routine medical imaging analysis will become much easier.</li>
+</ul>
+<h3 id="practical-concerns">Practical Concerns</h3>
+<ul>
+<li><em><strong>Top down (ICU data) vs. Bottom up data (Fitbit)</strong></em>. Physicians traditionally only look at data originating from the hospital, if they look at it at all, but now patients are creating their own data. Physicians are not trained or incentivized to interpret the quantified self data. If the incentives and training are set up correctly this might change.</li>
+<li>We don’t have full data sharing because hospitals compete with each other in the private healthcare system. This was a <strong>US centric discussion</strong>, and these incentives are completely different in other parts of the world.</li>
+<li>Work in this field has gone from image segmentation and classification to clinical problems. For work to become practically useful, <strong>researchers will need to have clinical collaborators</strong>. Now we have less purely technical challenges and more about how to introduce methods that fit into doctor’s workflow, and best take advantage of doctor’s and machine learning together.</li>
+<li><strong>GAN generated data can’t make up for lack of data</strong> in the first place, but may be useful for anonymization of sensitive data, so it can still be used to train models. (There was argument over this, but I think augmentation with GAN generated images can’t be better using a model that generalizes well. GANs can’t get you outside of the space of images you’ve seen, so there is no replacement for examples of unusual illness)</li>
+<li><strong>Research may not be addressing clinical problems as fast as we think</strong>. Collaboration between doctors and computer scientists still lower than we would like.</li>
+<li><strong>Interactive training</strong> of models with radiologist’s annotations may be a more efficient way to get training data.</li>
+<li><strong>Radiologists won’t be out of work</strong> anytime soon because imaging is already increasing faster than radiologists are being trained. Imaging use could increase even further as we discover ways to extract more information from each image. Radiologists work will change, and they may become overly specialized because all the easy tasks will be done by ai.</li>
+<li><strong>Future radiologists may be the data scientists of medicine</strong>, using their understanding to improve models.</li>
+<li>Translating advances in AI into the hospital is difficult because <strong>improving one task is not the same as improving the whole diagnostic workflow</strong>. We need to look at the entire workflow in the hospital and see see how tech makes the process better overall.</li>
+<li>Currently hospitals buy static tools. With machine learning we can have <strong>tools that adapt to different problems</strong>, so there will be a different relationship between vendor and consumer.</li>
+<li>I was surprised at the interest in this field. Most of the main tech companies have an interest in the pile of money that is healthcare. This being said, it will still take years for anything to be implemented.</li>
+<li>Because of the investment in healthcare its important for researchers/startups to not compete directly with with google et al. on segmentation and detection accuracy unless they have new methods. Slight architecture tweaks probably won’t beat millions of labelled images. The room for improvement is in better collaborations and more novel methods.</li>
+</ul>
+<hr>
+<h2 id="fairness">Fairness</h2>
+<p>Now that we have seen so many successes in machine learning there’s increased interest in promoting fairness in AI. Here are some take aways from the 
+<a href="https://www.facebook.com/nipsfoundation/videos/1553500344741199/" target="_blank" rel="noopener">presentations</a> on bias in AI:</p>
+<ul>
+<li>Data can be biased either because of a group being <strong>underrepresented</strong>, or because data can incorporate <strong>previous biases</strong>. For example, blacks may be predicted to be more likely to be criminals because they were arrested more frequently because of racial profiling.</li>
+<li><strong>Indirect effects of bias are important too</strong>. You should think about the effects of what you are doing on people. Not only direct effects like not hiring someone, but if you are creating an unfair representation of individuals that could harm them. For example the google search for ‘CEO’ yields primarily white males and this lack of representation of other groups will make them feel they are not CEO material.</li>
+</ul>
+<p>These discussions were useful, but in the end we were left with more questions than answers:</p>
+<ul>
+<li>There are some <strong>fundamental contradictions</strong> between commonly accepted definitions of fairness.</li>
+<li><strong>How will we decide what is good?</strong> Should a search result for CEO only return white males because this is the mode of the population? Should it return 8–10% female because that is the true value? Or should it return 50% female because we decided that is the socially best number?
+** There is the trade off of <strong>now vs. future</strong>. Should we sacrifice some efficiency now, so a marginalized group is better represented in the future?</li>
+<li>And even if we decide what to do, there will be the <strong>conflict between what we consider acceptable and what clients want</strong>. What to do when our boss suggests something questionable?</li>
+<li>We must ask ourselves <strong>who will benefit and who will be harmed</strong> by our work?</li>
+</ul>
+<p>Even for someone who isn’t particularly interested in fairness, it is important to pay attention to this work. Now that these discussions are happening, ignorance will not be an excuse for mistakes like the Google made, and there will be bigger repercussions for someone who harms marginalized groups through machine learning.</p>
+<hr>
+<h2 id="meta-learningreinforcement-learningself-playgeneralization">Meta Learning/Reinforcement Learning/Self-Play/Generalization</h2>
+<p>I knew nothing of this field before the conference, but this is the topic I found most interesting. I will be cracking open the deep RL book soon, but since that hasn’t happened yet don’t trust anything written here.</p>
+<p>Josh Tenenbaum explained that human learning doesn’t happen at an single level. There are different processes in our brain, operating at different time scales:</p>
+<ol>
+<li>Perception (&lt;1 second)</li>
+<li>Thinking (&lt;1min)</li>
+<li>Learning (&gt;1minute)</li>
+<li>Development(lifetime)</li>
+<li>Evolution(many lifetimes)</li>
+</ol>
+<p>A lot of work seems to be trying take the idea that we learn in different ways in different time scales into account in order to make models generalize better or train faster:</p>
+<ul>
+<li><strong>We don’t relearn physics with every task we do</strong>, so RL methods shouldn’t have to either. Current RL must learn things that we should take as given like physics. Our world is set up with a specific physics, so there is a huge search space of alternatives we don’t need to look at. Solve by using explicit models using probabilistic programming. (Josh Tenenbaum)</li>
+<li><strong>Meta Learning</strong> — Our reinforcement learning algorithms are extremity inefficient compared to how people learn. We should learn the algorithm by training across multiple environments and see which generalize better. Also we can use experience replay to deal with the issue of lack of rewards in RL as shown as Yann Le Cun’s cake (Pieter Abbeel).</li>
+<li>Schmidhuber reminded everyone that their definition of meta learning was incorrect, and that he had been <strong>doing it since 1990</strong>. He made it clear that anything resembling transfer learning is not meta learning. Learned checkpointing systems for models, models inventing their own problems, and slow-fast networks were some of what he contributed. I imagine there would be a lot of value in going back to his older papers.</li>
+<li><strong>Optimal reward</strong> — Currently we confound our own preferences, and the loss the agent optimizes. Alternatively we can think of finding an internal reward function that is optimal to train the agent.
+Capsules — I’m not sure how this fits in with the rest, but it is an attempt to make visual recognition generalize better by having a more restrictive architecture than normal CNNs, making them learn descriptions of objects. This should be closer to the human visual system, and work better with changes in viewpoint and small data.</li>
+<li><strong>Self-Play</strong> — Allows use to create complex strategies from simple environments by having agents compete. This is a way to convert compute into data, and as the game goes on we learn more valuable things. Problem is making sure these games don’t get stuck at very basic equilibria. This is how AlphaZero dominated go and chess. IIya Sutskever seemed very confident this is the way forward to create better AI.</li>
+</ul>
+<hr>
+<h2 id="random-stuff">Random Stuff:</h2>
+<ul>
+<li>“To get an extra 5% to bold the number in your table, you change the architecture. This is to make a model easier to optimize, not make it more flexible.” — I forget who said this, but this is a good reminder of how we can’t think about deep learning in the same way as more simple models.</li>
+<li>In the context on interpretability, we should focus on outliers, as these can give us the most information. — I forget who said this.</li>
+<li>Schmidhuber’s ways are extremely off-putting, but I imagine I’d be pretty pissed off too if I had not been recognized for my work to the extent he has. Maybe I’m wrong, but his group seems to have done a lot of good work in the past</li>
+<li>Andrej Karpathy, IIya Sutskever and Elon Musk seem quite confident in the speed we will see AGI sooner than we expect. Normally I would dismiss people who say this, but these people are the few who know something most of us don’t.</li>
+<li>China will dominate machine learning driven healthcare because of their huge amounts of data and lack of privacy concerns.</li>
+<li>Genetics, Bayesian Deep learning, GANs, Art Generation and many other topics received plenty attention at this conference, just not from me.</li>
+<li>There were of non-tech firms like hedge funds, but less interest in this from the participants. Also I was surprised at the number of Chinese firms trying to grab up the best ml researchers.</li>
+<li>Nvidia, Intel, and even Tesla are making new DL chips. Time to end this monopoly and obscene prices.</li>
+<li>Tencent had the best free t-shirt. Quality stuff.</li>
+<li>The hype here is insane. Will we have the type of bubble we had in 1999 and the corresponding crash, even though the underlying technology was correct? We know machine learning will be the way forward, but real applications may take a while to get sorted out, and there could be plenty of time in between for another little AI winter.</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/ml/">ml</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/&amp;text=NIPS%202017%20Highlights" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/&amp;t=NIPS%202017%20Highlights" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=NIPS%202017%20Highlights&amp;body=https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/&amp;title=NIPS%202017%20Highlights" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=NIPS%202017%20Highlights%20https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips/&amp;title=NIPS%202017%20Highlights" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu2b8d075eea2632f115321e025ae11a3e_74778_270x270_fill_q90_lanczos_center.jpg" alt="Rene Bidart">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://renebidart.com">Rene Bidart</a></h5>
+      <h6 class="card-subtitle">PhD Candidate</h6>
+      <p class="card-text">PhD candidate at University of Waterloo studying Machine Learning</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:renebidart@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=8TIUlYkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/renebidart" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
