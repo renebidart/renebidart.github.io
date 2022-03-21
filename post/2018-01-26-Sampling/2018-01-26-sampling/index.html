@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Optimizing Affine Transforms in VAEs Our goal is to create a VAE which will only encode a subset of affine transforms, but generalize to all. This is shown below:  Previously we showed takes a higher capacity VAE to encode all possible orientations of an object, compared to encoding a single orientation.">
+  <meta name="description" content="Stratified Sampling We want to get the estimate the mean of a population, and this population is broken into different groups. As long as these groups are homogeneous, we can produce a better estimate by estimating the means of the groups individually.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/">
+  <link rel="alternate" hreflang="en-us" href="https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/">
 
   
 
@@ -39,7 +39,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
   
 
   
@@ -66,8 +66,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -256,7 +256,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu5e15e861ad43a166b29f0ae919c910d4_1675_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu5e15e861ad43a166b29f0ae919c910d4_1675_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/">
+  <link rel="canonical" href="https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/">
 
   
   
@@ -269,16 +269,16 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/">
-  <meta property="og:title" content="Open Research 8: Optimizing Affine Transforms in VAEs | Academic">
-  <meta property="og:description" content="Optimizing Affine Transforms in VAEs Our goal is to create a VAE which will only encode a subset of affine transforms, but generalize to all. This is shown below:  Previously we showed takes a higher capacity VAE to encode all possible orientations of an object, compared to encoding a single orientation."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:site_name" content="Rene Bidart">
+  <meta property="og:url" content="https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/">
+  <meta property="og:title" content="Sequential Stratified Sampling | Rene Bidart">
+  <meta property="og:description" content="Stratified Sampling We want to get the estimate the mean of a population, and this population is broken into different groups. As long as these groups are homogeneous, we can produce a better estimate by estimating the means of the groups individually."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-03-22T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2018-01-26T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-03-22T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2018-01-26T00:00:00&#43;00:00">
   
 
   
@@ -302,12 +302,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/"
+    "@id": "https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/"
   },
-  "headline": "Open Research 8: Optimizing Affine Transforms in VAEs",
+  "headline": "Sequential Stratified Sampling",
   
-  "datePublished": "2020-03-22T00:00:00Z",
-  "dateModified": "2020-03-22T00:00:00Z",
+  "datePublished": "2018-01-26T00:00:00Z",
+  "dateModified": "2018-01-26T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -316,13 +316,13 @@
   
   "publisher": {
     "@type": "Organization",
-    "name": "Academic",
+    "name": "Rene Bidart",
     "logo": {
       "@type": "ImageObject",
       "url": "https://renebidart.com/images/icon_hu5e15e861ad43a166b29f0ae919c910d4_1675_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Optimizing Affine Transforms in VAEs Our goal is to create a VAE which will only encode a subset of affine transforms, but generalize to all. This is shown below:  Previously we showed takes a higher capacity VAE to encode all possible orientations of an object, compared to encoding a single orientation."
+  "description": "Stratified Sampling We want to get the estimate the mean of a population, and this population is broken into different groups. As long as these groups are homogeneous, we can produce a better estimate by estimating the means of the groups individually."
 }
 </script>
 
@@ -340,11 +340,11 @@
 
 
 
-  <title>Open Research 8: Optimizing Affine Transforms in VAEs | Academic</title>
+  <title>Sequential Stratified Sampling | Rene Bidart</title>
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -391,7 +391,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Rene Bidart</a>
     </div>
     
 
@@ -404,7 +404,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Rene Bidart</a>
     </div>
     
 
@@ -488,23 +488,6 @@
       
 
       
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-palette" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
 
       
 
@@ -535,7 +518,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Open Research 8: Optimizing Affine Transforms in VAEs</h1>
+  <h1>Sequential Stratified Sampling</h1>
 
   
 
@@ -554,7 +537,7 @@
     
       
     
-    Mar 22, 2020
+    Jan 26, 2018
   </span>
   
 
@@ -563,12 +546,15 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
   
   
+  
+  <span class="middot-divider"></span>
+  <a href="/post/2018-01-26-sampling/2018-01-26-sampling/#disqus_thread"></a>
   
 
   
@@ -599,17 +585,39 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h3 id="optimizing-affine-transforms-in-vaes">Optimizing Affine Transforms in VAEs</h3>
-<p>Our goal is to create a VAE which will only encode a subset of affine transforms, but generalize to all. This is shown below:
-<img src="../avae_3d.png" alt="avae_3d.png"></p>
-<p>
-<a href="https://renebidart.com/post/or5/2020-03-02-open-research-5/" target="_blank" rel="noopener">Previously</a> we showed takes a higher capacity VAE to encode all possible orientations of an object, compared to encoding a single orientation. Our goal is to create a smaller model by only encoding a subset of all orientations, but still generalize to all orientations at inference. But how can we do this, given a dataset at random orientations?</p>
-<p>Because the VAE is a generative model, we can the optimize an affine transform to find the orinetation at which the VAE best encodes the data, or has lowest loss. Our approach is to use an inner optimization loop during training to optimize this affine transform. The goal is that this will force the model to encode only a subset of the distribution. Then at inference time, this affine optimization can be used to allow the model to generalize to all orientations.</p>
-<p>Normally stochastic gradient descent is used to update the parameters of the network to reduce the loss of the VAE. Here we will take another approach, where the forward pass of the VAE will include an optimization over a set of parameters, where the parameters are optimized to reduce the VAE&rsquo;s loss, maximizing the ELBO. These are the parameters of an affine transform, so the process corresponds to finding the optimal orientation to encode an object at. This optimization objective is shown as:</p>
-<p>$\underset{\alpha}{\text{argmin}}\{ L_{VAE}[\tau_{\alpha}^{-1}(p_\rho(q_\phi(\tau_{\alpha}(x))))]\}$</p>
-<p>To train a network of this form is very expensive, because the above optimization must be solved once for each forward pass. As I discussed 
-<a href="https://renebidart.com/post/or7/2020-03-17-open-research-7/" target="_blank" rel="noopener">before</a>, optimizing $\alpha$ is differentiable, but is likely to get caught in a local optima. To overcome this, we evaluate the performance at a number of different random initializations of $\alpha$, and then select the top k of these initializations to do gradient descent on. Here we used 32 random initializations, and did gradient descent on the top 8 of these.</p>
-<p>These tests take a while to run, so we&rsquo;ll look at results later, and give a rigorous interpretation of the above in terms of variational inference.</p>
+      <h2 id="stratified-sampling">Stratified Sampling</h2>
+<p>We want to get the estimate the mean of a population, and this population is broken into different groups. As long as these groups are homogeneous, we can produce a better estimate by estimating the means of the groups individually. For example, we could estimate the mean math ability of students in Ontario by dividing it up by schools. By allocating more samples to the schools with higher number of students and variance in ability, we can get a better estimate overall.</p>
+<p>Back in 1934 
+<a href="http://www.stat.cmu.edu/~brian/905-2008/papers/neyman-1934-jrss.pdf" target="_blank" rel="noopener">Jerzy Neyman</a> proved that the optimal way to allocate the number of samples for each stratum, $n_h$ is proportional to its standard deviation, $\sigma_{yh}$, and its size $W_h$:</p>
+<p>$$
+n_h \propto W_h\sigma_{yh}
+$$</p>
+<p>In reality we won&rsquo;t know the stratum variances, so alternative methods using auxiliary information or two stage sampling to get an estimate of the variances are used. The two sample method is not optimal, and auxillary information may not be availiable.</p>
+<p>Today there are situations where we can take samples sequentially, which may not have been possible when these methods were first developed, such as with an online survey where it is easy to distribute and quick to analyse results, but may be costly to pay an individual to complete it. Here we will allocate each sample individually, but how do we pick which strata to sample from?</p>
+<h2 id="sequential-sampling">Sequential Sampling</h2>
+<p>we will think of sampling over a number of timne steps, taking one sample from a given stratum at each time. The goal is to sample from the stratum that will cause the largest expected decrease in variation of our estimate, $\bar{y}$ at each iteration. We would would like to find $i$ to maximize: $$V(\bar{y}<em>{st, i})-V(\bar{y</em>{st}}) = $$</p>
+<p>$$
+\sum\limits_{h=1}^{H}W_{h, i}^2(1-\frac{n_{h,i}}{N_{h,i}})\frac{s_{yh,i}^2}{n_h{,i}}-\sum\limits_{h=1}^{H}W_h^2(1-\frac{n_h}{N_h})\frac{s_{yh}^2}{n_h}
+$$</p>
+<p>This says we would like to maximize the decrease in variance</p>
+<p>Here $$\bar{y}<em>{st, i}$$ is used to denote this after another sample is taken from stratum $$i$$. For simplicity, assume that all strata have the same size, so $$W_h$$ are equal. Then, we can notice that all the terms in this sum are equal, except for those relating to stratum $$i$$:
+\begin{equation}
+(1-(\frac{n_i+1}{N_i}))\frac{s_i^{*2}}{n_i+1} - (1-(\frac{n_i}{N_i}))\frac{s_i^{2}}{n_i}
+\end{equation}
+If we assume $s_i^{*2}=s_i^{2}$, after rearranging we obtain the objective as:
+$\max</em>{i} \frac{s_i^{2}}{n(n+1)}$</p>
+<p>This shows that the expected benefit is increasing in the variance of the sample, as would be expected from Neyman allocation, and is decreasing in the number of samples already taken from that strata, because as more samples are taken from a given strata, the we have a better estimate of its&rsquo; mean.</p>
+<h2 id="procedure">Procedure:</h2>
+<ol>
+<li>Take a small number of samples from all strata, compute variance, and the expected benefit estimates for all strata.</li>
+<li>Compute the expected benefit for each of the strata</li>
+<li>Sample from the strata with maximum expected benefit</li>
+<li>Repeat this until a total of $n$ samples are taken</li>
+</ol>
+<p><em>Implementation Detail:  To make this computationally efficient, we can use the iterative update formulas for the mean and standard deviation. Using this means previous samples don&rsquo;t have to be stored.</em></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This is a simple way to take advantage sequental sampling using stratified sampling. Compared to the two-sample method, this will more efficiently allocate samples, so should result in lower variance of the estimator. More details are 
+<a href="https://github.com/renebidart/stratified-sampling" target="_blank" rel="noopener">here</a>.</p>
 
     </div>
 
@@ -632,7 +640,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/&amp;text=Open%20Research%208:%20Optimizing%20Affine%20Transforms%20in%20VAEs" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/&amp;text=Sequential%20Stratified%20Sampling" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -645,7 +653,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/&amp;t=Open%20Research%208:%20Optimizing%20Affine%20Transforms%20in%20VAEs" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/&amp;t=Sequential%20Stratified%20Sampling" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -658,7 +666,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Open%20Research%208:%20Optimizing%20Affine%20Transforms%20in%20VAEs&amp;body=https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Sequential%20Stratified%20Sampling&amp;body=https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -671,7 +679,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/&amp;title=Open%20Research%208:%20Optimizing%20Affine%20Transforms%20in%20VAEs" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/&amp;title=Sequential%20Stratified%20Sampling" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -684,7 +692,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Open%20Research%208:%20Optimizing%20Affine%20Transforms%20in%20VAEs%20https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Sequential%20Stratified%20Sampling%20https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -697,7 +705,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://renebidart.com/post/2020-03-22-03-or8/2020-03-17-open-research-7/&amp;title=Open%20Research%208:%20Optimizing%20Affine%20Transforms%20in%20VAEs" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/&amp;title=Sequential%20Stratified%20Sampling" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -739,7 +747,7 @@
     <div class="media-body">
       <h5 class="card-title"><a href="https://renebidart.com">Rene Bidart</a></h5>
       <h6 class="card-subtitle">PhD Candidate</h6>
-      <p class="card-text">PhD candidate at University of Waterloo desearching deep learning</p>
+      <p class="card-text">PhD candidate at University of Waterloo studying Machine Learning</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -800,6 +808,13 @@
 
 
 
+<section id="comments">
+  
+    
+
+  
+</section>
+
 
 
 
@@ -849,7 +864,7 @@
 
     
     
-    <script>const isSiteThemeDark = false;</script>
+    <script>const isSiteThemeDark = true;</script>
     
 
     
@@ -898,6 +913,8 @@
     
 
     
+    
+    <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
     
 
     

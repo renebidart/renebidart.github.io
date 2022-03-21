@@ -14,9 +14,9 @@
     
     <item>
       <title>3D Pose Estimation Datasets</title>
-      <link>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-3d-pose-estimation-datasets/</link>
+      <link>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-pose/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-3d-pose-estimation-datasets/</guid>
+      <guid>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-pose/</guid>
       <description>&lt;p&gt;2D pose estimation has improved immensely over the past few years, partly because of wealth of data stemming from the ease of annotating any RGB video. 3D pose annotation is much more difficult because accurate 3D pose annotation requires using motion capture in indoor artificial settings.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;

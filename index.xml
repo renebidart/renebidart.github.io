@@ -774,9 +774,9 @@ Code available at
     
     <item>
       <title>3D Pose Estimation Datasets</title>
-      <link>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-3d-pose-estimation-datasets/</link>
+      <link>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-pose/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-3d-pose-estimation-datasets/</guid>
+      <guid>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-pose/</guid>
       <description>&lt;p&gt;2D pose estimation has improved immensely over the past few years, partly because of wealth of data stemming from the ease of annotating any RGB video. 3D pose annotation is much more difficult because accurate 3D pose annotation requires using motion capture in indoor artificial settings.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1154,9 +1154,9 @@ I felt better after the meditation, but how much of this was from the mindfulnes
     
     <item>
       <title>Sequential Stratified Sampling</title>
-      <link>https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sequential-stratified-sampling/</link>
+      <link>https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/</link>
       <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sequential-stratified-sampling/</guid>
+      <guid>https://renebidart.com/post/2018-01-26-sampling/2018-01-26-sampling/</guid>
       <description>&lt;h2 id=&#34;stratified-sampling&#34;&gt;Stratified Sampling&lt;/h2&gt;
 &lt;p&gt;We want to get the estimate the mean of a population, and this population is broken into different groups. As long as these groups are homogeneous, we can produce a better estimate by estimating the means of the groups individually. For example, we could estimate the mean math ability of students in Ontario by dividing it up by schools. By allocating more samples to the schools with higher number of students and variance in ability, we can get a better estimate overall.&lt;/p&gt;
 &lt;p&gt;Back in 1934 
