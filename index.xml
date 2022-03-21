@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
+    <title>Rene Bidart</title>
     <link>https://renebidart.com/</link>
       <atom:link href="https://renebidart.com/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <description>Rene Bidart</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Academic</title>
+      <title>Rene Bidart</title>
       <link>https://renebidart.com/</link>
     </image>
     
@@ -777,8 +777,7 @@ Code available at
       <link>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-3d-pose-estimation-datasets/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://renebidart.com/post/2018-12-04-pose-datasets/2018-12-04-3d-pose-estimation-datasets/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;2D pose estimation has improved immensely over the past few years, partly because of wealth of data stemming from the ease of annotating any RGB video. 3D pose annotation is much more difficult because accurate 3D pose annotation requires using motion capture in indoor artificial settings.&lt;/p&gt;
+      <description>&lt;p&gt;2D pose estimation has improved immensely over the past few years, partly because of wealth of data stemming from the ease of annotating any RGB video. 3D pose annotation is much more difficult because accurate 3D pose annotation requires using motion capture in indoor artificial settings.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1196,16 +1195,15 @@ $\max&lt;/em&gt;{i} \frac{s_i^{2}}{n(n+1)}$&lt;/p&gt;
     
     <item>
       <title>NIPS 2017 Highlights</title>
-      <link>https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips-2017-highlights/</link>
+      <link>https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips-2017/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips-2017-highlights/</guid>
-      <description>&lt;h2 id=&#34;the-hype-continues&#34;&gt;The hype continues&lt;/h2&gt;
-&lt;p&gt;Like many of the attendees, this was my first NIPS conference. Overall a great experience, and I doubt there is any substitute for meeting interesting people and learning about the current state of machine learning. Here I’ll mention a few of the highlights of the conference for me, and some of the weirdness.&lt;/p&gt;
+      <guid>https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips-2017/</guid>
+      <description>&lt;p&gt;Like many of the attendees, this was my first NIPS conference. Overall a great experience, and I doubt there is any substitute for meeting interesting people and learning about the current state of machine learning. Here I’ll mention a few of the highlights of the conference for me, and some of the weirdness.&lt;/p&gt;
 &lt;p&gt;Money is flooding in from everywhere in AI, with desperate investors trying to get a piece of the pie. Free alcohol and parties every night was unexpected for an academic conference:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;&lt;img src=&#34;../flo-rida.png&#34; alt=&#34;flo-rida.png&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;img src=&#34;../florida.png&#34; alt=&#34;flo-rida&#34;&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -1217,6 +1215,7 @@ $\max&lt;/em&gt;{i} \frac{s_i^{2}}{n(n+1)}$&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;!-- &lt;figcaption&gt;*If this doesn’t signal a bubble I don’t know what does*&lt;/figcaption&gt; --&gt;
 &lt;p&gt;With this level of hype there can be some downsides:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1272,7 +1271,7 @@ I think when deploying a model for real use we are facing a trade off between a 
 &lt;li&gt;Thanks to 
 &lt;a href=&#34;http://www.niftynet.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;niftynet&lt;/strong&gt;&lt;/a&gt;, routine medical imaging analysis will become much easier.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;practical-concerns&#34;&gt;Practical Concerns:&lt;/h3&gt;
+&lt;h3 id=&#34;practical-concerns&#34;&gt;Practical Concerns&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;&lt;strong&gt;Top down (ICU data) vs. Bottom up data (Fitbit)&lt;/strong&gt;&lt;/em&gt;. Physicians traditionally only look at data originating from the hospital, if they look at it at all, but now patients are creating their own data. Physicians are not trained or incentivized to interpret the quantified self data. If the incentives and training are set up correctly this might change.&lt;/li&gt;
 &lt;li&gt;We don’t have full data sharing because hospitals compete with each other in the private healthcare system. This was a &lt;strong&gt;US centric discussion&lt;/strong&gt;, and these incentives are completely different in other parts of the world.&lt;/li&gt;

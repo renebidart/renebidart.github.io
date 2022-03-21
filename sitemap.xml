@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://renebidart.com/</loc>
-    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://renebidart.com/tags/crypto/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url>
@@ -29,6 +24,11 @@
   
   <url>
     <loc>https://renebidart.com/post/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renebidart.com/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -123,8 +123,18 @@
   </url>
   
   <url>
+    <loc>https://renebidart.com/tags/machine-learning/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://renebidart.com/post/2018-8-14-setup/2018-8-14-deep-learning-remote-machine-setup/</loc>
     <lastmod>2018-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renebidart.com/tags/life/</loc>
+    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -138,7 +148,12 @@
   </url>
   
   <url>
-    <loc>https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips-2017-highlights/</loc>
+    <loc>https://renebidart.com/tags/ml/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renebidart.com/post/2017-12-13-nips/2017-12-13-nips-2017/</loc>
     <lastmod>2017-12-13T00:00:00+00:00</lastmod>
   </url>
   
