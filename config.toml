@@ -1,0 +1,17 @@
+baseURL = "https://renebidart.com/"
+languageCode = "en-us"
+title = "Rene Bidart"
+# theme = "minimal"
+
+[params]
+  description = "PhD Candidate in Systems Design Engineering at the University of Waterloo"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/post/"
+    weight = 2

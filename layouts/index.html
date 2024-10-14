@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section id="about">
+    <h2>About Me</h2>
+    <p>{{ .Site.Params.description }}</p>
+</section>
+<section id="recent-posts">
+    <h2>Recent Posts</h2>
+    {{ range first 5 (where .Site.RegularPages "Type" "in" "post") }}
+    <article>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+        <p>{{ .Summary }}</p>
+    </article>
+    {{ end }}
+</section>
+{{ end }}
