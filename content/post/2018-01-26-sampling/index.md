@@ -20,23 +20,21 @@ Today there are situations where we can take samples sequentially, which may not
 
 ## Sequential Sampling
 
-we will think of sampling over a number of timne steps, taking one sample from a given stratum at each time. The goal is to sample from the stratum that will cause the largest expected decrease in variation of our estimate, $\bar{y}$ at each iteration. We would would like to find $i$ to maximize: $$V(\bar{y}_{st, i})-V(\bar{y_{st}}) = $$
+We will think of sampling over a number of time steps, taking one sample from a given stratum at each time. The goal is to sample from the stratum that will cause the largest expected decrease in variation of our estimate, ȳ at each iteration. We would like to find i to maximize:
 
-$$
-\sum\limits_{h=1}^{H}W_{h, i}^2(1-\frac{n_{h,i}}{N_{h,i}})\frac{s_{yh,i}^2}{n_h{,i}}-\sum\limits_{h=1}^{H}W_h^2(1-\frac{n_h}{N_h})\frac{s_{yh}^2}{n_h}
-$$
+V(ȳ<sub>st, i</sub>) - V(ȳ<sub>st</sub>) = ∑<sub>h=1</sub><sup>H</sup> W<sub>h,i</sub><sup>2</sup>(1 - n<sub>h,i</sub>/N<sub>h,i</sub>)s<sub>yh,i</sub><sup>2</sup>/n<sub>h,i</sub> - ∑<sub>h=1</sub><sup>H</sup> W<sub>h</sub><sup>2</sup>(1 - n<sub>h</sub>/N<sub>h</sub>)s<sub>yh</sub><sup>2</sup>/n<sub>h</sub>
 
+This says we would like to maximize the decrease in variance.
 
-This says we would like to maximize the decrease in variance
+Here ȳ<sub>st, i</sub> is used to denote this after another sample is taken from stratum i. For simplicity, assume that all strata have the same size, so W<sub>h</sub> are equal. Then, we can notice that all the terms in this sum are equal, except for those relating to stratum i:
 
-Here $$\bar{y}_{st, i}$$ is used to denote this after another sample is taken from stratum $$i$$. For simplicity, assume that all strata have the same size, so $$W_h$$ are equal. Then, we can notice that all the terms in this sum are equal, except for those relating to stratum $$i$$:
-\begin{equation}
-(1-(\frac{n_i+1}{N_i}))\frac{s_i^{*2}}{n_i+1} - (1-(\frac{n_i}{N_i}))\frac{s_i^{2}}{n_i}
-\end{equation} 
-If we assume $s_i^{*2}=s_i^{2}$, after rearranging we obtain the objective as:
-$\max_{i} \frac{s_i^{2}}{n(n+1)}$
+(1 - (n<sub>i</sub> + 1)/N<sub>i</sub>)s<sub>i</sub><sup>*2</sup>/(n<sub>i</sub> + 1) - (1 - n<sub>i</sub>/N<sub>i</sub>)s<sub>i</sub><sup>2</sup>/n<sub>i</sub>
 
-This shows that the expected benefit is increasing in the variance of the sample, as would be expected from Neyman allocation, and is decreasing in the number of samples already taken from that strata, because as more samples are taken from a given strata, the we have a better estimate of its' mean.
+If we assume s<sub>i</sub><sup>*2</sup> = s<sub>i</sub><sup>2</sup>, after rearranging we obtain the objective as:
+
+max<sub>i</sub> s<sub>i</sub><sup>2</sup>/(n(n+1))
+
+This shows that the expected benefit is increasing in the variance of the sample, as would be expected from Neyman allocation, and is decreasing in the number of samples already taken from that strata, because as more samples are taken from a given strata, we have a better estimate of its mean.
 
 
 ## Procedure:
@@ -49,6 +47,8 @@ This shows that the expected benefit is increasing in the variance of the sample
 
 ## Conclusion
 This is a simple way to take advantage sequental sampling using stratified sampling. Compared to the two-sample method, this will more efficiently allocate samples, so should result in lower variance of the estimator. More details are [here](https://github.com/renebidart/stratified-sampling).
+
+
 
 
 

@@ -15,3 +15,11 @@ title = "Rene Bidart"
     name = "Blog"
     url = "/post/"
     weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[ignoreFiles]
+  ["old_blogs_ignored/*"]

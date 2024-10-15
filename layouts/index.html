@@ -1,16 +1,25 @@
 {{ define "main" }}
 <section id="about">
-    <h2>About Me</h2>
-    <p>{{ .Site.Params.description }}</p>
+
+    <p>Focused on using AI to improve healthcare.</p>
+    
+    <p>Some things about me:</p>
+    <ul>
+        <li>Grew up in Cape Breton Island, Nova Scotia</li>
+        <li>Studied in Ottawa (undergrad) and Waterloo (grad school)</li>
+        <li>Cycled across Canada last summer after graduating PhD</li>
+        <li>Bootstrapped self improvement apps last year (>100k revenue)</li>
+    </ul>
 </section>
 <section id="recent-posts">
-    <h2>Recent Posts</h2>
-    {{ range first 5 (where .Site.RegularPages "Type" "in" "post") }}
-    <article>
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        <time>{{ .Date.Format "January 2, 2006" }}</time>
-        <p>{{ .Summary }}</p>
-    </article>
+    <h4><a href="/post">Writing</a></h4>
+    <div class="post-list">
+    {{ range first 3 (where .Site.RegularPages "Type" "in" "post") }}
+        <div class="post-item">
+            <span class="post-date">{{ .Date.Format "2006-01" }}</span>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
     {{ end }}
+    </div>
 </section>
 {{ end }}

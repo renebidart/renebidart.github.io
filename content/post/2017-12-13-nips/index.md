@@ -9,18 +9,17 @@ Like many of the attendees, this was my first NIPS conference. Overall a great e
 
 Money is flooding in from everywhere in AI, with desperate investors trying to get a piece of the pie. Free alcohol and parties every night was unexpected for an academic conference:
 
-| ![[flo-rida]](florida.png) |
-|-----------------------------------------------------------|
-|:--:|
-| *If this doesn’t signal a bubble I don’t know what does* |
-
-<!-- <figcaption>*If this doesn’t signal a bubble I don’t know what does*</figcaption> -->
+<figure>
+  <img src="florida.png" alt="Flo Rida" style="max-width: 100%; height: auto;">
+  <figcaption><em>If this doesn't signal a bubble I don't know what does</em></figcaption>
+</figure>
 
 With this level of hype there can be some downsides:
 
-| ![[lineup.jpeg]](lineup.jpeg) |
-|:--:|
-| *Over 8000 people attended, and they all needed to register* |
+<figure>
+  <img src="lineup.jpeg" alt="Conference lineup" style="max-width: 100%; height: auto;">
+  <figcaption><em>Over 8000 people attended, and they all needed to register</em></figcaption>
+</figure>
 
 ## Rigor vs. Accuracy
 
