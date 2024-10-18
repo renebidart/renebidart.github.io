@@ -1,25 +1,41 @@
 {{ define "main" }}
 <section id="about">
+  <p>
+    Focused on turning AI research into useful tools. <br />Some things I've
+    done:
+  </p>
 
-    <p>Focused on using AI to improve healthcare.</p>
-    
-    <p>Some things about me:</p>
-    <ul>
-        <li>Grew up in Cape Breton Island, Nova Scotia</li>
-        <li>Studied in Ottawa (undergrad) and Waterloo (grad school)</li>
-        <li>Cycled across Canada last summer after graduating PhD</li>
-        <li>Bootstrapped self improvement apps last year (>100k revenue)</li>
-    </ul>
+  <ul>
+    <li>
+      Grew up in Cape Breton; lived across Canada (Ottawa, Waterloo, Vancouver)
+    </li>
+    <li>
+      University of Waterloo PhD (2023), on graduation cycled across Canada
+    </li>
+    <li>
+      Worked on medical AI research and implementation at Synthesis Health and
+      Sunnybrook Hospital
+    </li>
+    <li>
+      In a past life, worked on economics/finance (Bank of Canada, Shell Street
+      Labs)
+    </li>
+    <li>
+      Last year, bootstrapped AI apps to over $100k revenue (Pieter Levels
+      style)
+    </li>
+    <li>
+      Currently exploring new ventures at the intersection of AI and health
+    </li>
+  </ul>
 </section>
 <section id="recent-posts">
-    <h4><a href="/post">Writing</a></h4>
-    <div class="post-list">
-    {{ range first 3 (where .Site.RegularPages "Type" "in" "post") }}
-        <div class="post-item">
-            <span class="post-date">{{ .Date.Format "2006-01" }}</span>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </div>
-    {{ end }}
-    </div>
+  <h2><a href="/post">Writing</a></h2>
+  {{ range first 3 (where .Site.RegularPages "Type" "in" "post") }}
+  <div class="post-item">
+    <span class="post-date">{{ .Date.Format "2006-01" }}</span>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </div>
+  {{ end }}
 </section>
 {{ end }}
