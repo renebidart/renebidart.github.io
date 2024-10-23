@@ -1,6 +1,6 @@
 ---
 author: Rene Bidart
-date: "2024-04-01"
+date: "2024-06-23"
 title: 2023 Letter
 ---
   
@@ -119,7 +119,7 @@ A morning run from my brother’s house in the North End of Sydney took me past 
 
 This level of ambition — the willingness to commit to large, uncertain projects — feels foreign now, a relic of a bygone era. Building the railway, the causeway, or the steel plant required a commitment and faith that seem rare now, even when we have so many advantages of wealth, safety, and knowledge. The journey was a constant reminder of how much less ambitious we are today, and I'm wondering why. Has our tendency to take credit for the sins of our ancestors also led us to internalize their accomplishments? Have we forgotten what it takes to make things happen, thinking progress is automatic? Or is it just that living your teenage dream in Vancouver is just too much nicer than going into the battle?
 
-I'm left with the trite observation that we can do far more than we think, but it involves far more effort and risk. But the significance of the journey was actually experiencing it.
+<!-- I'm left with the trite observation that we can do far more than we think, but it involves far more effort and risk. But the significance of the journey was in experiencing it. -->
 
 ---
 
