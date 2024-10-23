@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Research 2: Getting Started - Self-supervised Learning, Pytorch Ignite, Lightning and Fastai | Rene Bidart</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">Rene Bidart</a></h1>
+      <nav>
+        
+      </nav>
+    </header>
+    <main>
+
+<article>
+  <h1>Open Research 2: Getting Started - Self-supervised Learning, Pytorch Ignite, Lightning and Fastai</h1>
+  <h2 id="nlp">NLP</h2>
+<p>I want to do self-supervised learning, and I think NLP is better suited to this, even though I&rsquo;ve worked on vision previously. There is something special about NLP where simple self-supervised objectives like next word or masked work prediction work well, compared to computer vision where more complex methods are needed. If something works here, I can extend it to vision, and my guess is that the switch to NLP won&rsquo;t be too difficult.</p>
+<h3 id="frameworks-fastai-ignite-and-lightning">Frameworks: Fastai, Ignite and Lightning.</h3>
+<p>Iteration speed has been an issue for me. Too much planning and too slow execution. Slow execution was mainly from simple coding mistakes and being too messy. I only learned the absolute minimum of CS needed to get by, so my coding is at the far end of the research spectrum and my projects are often a dumpster fire after a few months.</p>
+<p>I want to use a library both for iteration speed, and hopefully to learn some good coding practices. I spent time setting up my approach so there would be quick iteration speed, and getting familiar with some NLP basics.</p>
+<p><strong>Fastai</strong> was the best course I&rsquo;ve taken, and library was great for doing standard experiments quickly. Unfortunately I found it difficult to do non-standard things with, and code becomes a mess as soon as you try to change anything. Something about the way it is written means to change things they didn’t explicitly intend to takes a lot of effort. I loved the good defaults and having less to worry about when running experiments, but it not ideal for weird research. Luckily there were a couple more I&rsquo;d never tried before, ignite and lightning.</p>
+<p><strong>Ignite</strong> is used by <a href="https://github.com/huggingface/transformers">huggingface</a>, which probably has the nicest ML code I&rsquo;ve seen, but <strong>Lightning</strong> has more GitHub stars and more memes in their medium articles!</p>
+<p>I did the Huggingface <a href="https://github.com/huggingface/naacl_transfer_learning_tutorial">transfer learning tutorial</a> using a different dataset with both ignite to see which one I liked better. It was written using ignite, which should have made it easy, but I didn&rsquo;t like the experience. I didn’t find it intuitive. I couldn&rsquo;t quite figure out why, or if I should take the effort to get used to this, so I moved on to Lightning.</p>
+<p>Lightning was more intuitive, but filled with bugs. Even a basic task like mine ran into multiple problems with logging, and lack of documentation. It was annoying because it seemed perfect on the surface. It’s clearly a work in progress but I like the direction, so I’ll stick with it until it becomes limiting.</p>
+<p>I also realized how good huggingface was. Their transfer learning tutorial was amazing, and their code is so clear and concise compared to most I&rsquo;ve seen. This makes a big difference in getting up to speed with NLP.</p>
+<hr>
+<h3 id="meta-how-to-have-a-bad-career">Meta: How to have a bad career?</h3>
+<p>I saw David Patterson&rsquo;s talk <a href="https://www.youtube.com/watch?v=Rn1w4MRHIhc">How to Have a Bad Career</a>, which feels like a more practical and modern version of <a href="https://www.youtube.com/watch?v=a1zDuOPkMSw">You and Your Research</a>. I&rsquo;ll make sure to revisit this one.</p>
+<p>There&rsquo;s tons of practical advice on making presentations, giving talks, etc, but there were two big things that stood out for me:</p>
+<p><strong>Spend as much time polishing and presenting the research as you did on the original research</strong> If people don&rsquo;t know about your work, or don&rsquo;t understand it, its the same as not having done it. This is totally contrary to the way I used to work, where I would spend the absolute minimum time possible on presentation. To me this was bullshit, I&rsquo;m not a used car salesman, so my work will speak for itself. But I was wrong, and its time to treat presentation as a central part of my work.</p>
+<p><strong>Frequent feedback is key</strong> Just like in reinforcement learning, delayed rewards are a huge issue with research. The best way to improve research is an another perspective, from someone who will be critical with your work. Even better to occasionally get feedback from people even further from your topic for a wider perspective.</p>
+
+</article>
+</main>
+  </body>
+</html>

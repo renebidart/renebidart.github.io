@@ -1,0 +1,56 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    margin-right: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+#recent-posts {
+    margin-top: 2rem;
+}
+
+.post-item {
+    margin-bottom: 0.5rem;
+}
+
+.post-date {
+    font-size: 0.9em;
+    color: #666;
+    margin-right: 1rem;
+}
+
+header h1 a {
+    text-decoration: none;
+}

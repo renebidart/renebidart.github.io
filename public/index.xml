@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rene Bidart</title>
+    <link>https://renebidart.com/</link>
+    <description>Recent content on Rene Bidart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jun 2024 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://renebidart.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2023 Letter</title>
+      <link>https://renebidart.com/post/2024-06-23-2023-letter/</link>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2024-06-23-2023-letter/</guid>
+      <description>How in the hell did people build a railway across three mountain ranges, hundreds of kilometres from civilization, in only a few years? I can&amp;rsquo;t imagine it being proposed today, but something that audacious was completed in the 1800s.
+Their goal was to create a unified Canada, to join the developed Eastern part with British Columbia before it could be absorbed into the US. Back then the west coast was a different world, disconnected from the mass of Canada’s population along the St.</description>
+    </item>
+    
+    <item>
+      <title>The Straussian Moment - Peter Thiel (pdf)</title>
+      <link>https://renebidart.com/post/2021-01-05-straussian-moment/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2021-01-05-straussian-moment/</guid>
+      <description>The Straussian Moment - Peter Thiel (pdf)
+This was strangely hard to find and only available as pictures on Evernote, so I uploaded it as a searchable PDF. Peter Robinson also has a great interview with Thiel on his essay.</description>
+    </item>
+    
+    <item>
+      <title>How Economic Development Happens - Synthesis of Competition and Command</title>
+      <link>https://renebidart.com/post/2020-04-14-development/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-04-14-development/</guid>
+      <description>I wondered about economic development since I was a kid, but the answers in economics were always unsatisfying. 18 year old me went to economics class to discover the mysteries of the world but was confronted with the Solow growth model. This happened repeatedly, until I realized I wouldn&amp;rsquo;t learn anything about unions, macroeconomics or monetary policy in an economics class. About a year ago I read a book called How Asia Works by Joe Studwell and I&amp;rsquo;m back trying to discover the mysteries of the economy.</description>
+    </item>
+    
+    <item>
+      <title>Keeping up with Deep Learning Research</title>
+      <link>https://renebidart.com/post/2020-03-25-open-research-9-update/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-03-25-open-research-9-update/</guid>
+      <description>When I started my PhD I was overwhelmed trying to keep up with new research. Trying to read everything will take forever, but by not reading enough we risk rediscovering old ideas, or doing unimportant work. So can we balance this?
+Here are a few lessons I learned:
+ Papers are often dense and filled with unnecessary math. Read summaries (blogs, twitter threads, or newsletters) to understand the paper and decide if it is worth reading.</description>
+    </item>
+    
+    <item>
+      <title>Open Research 8: Optimizing Affine Transforms in VAEs</title>
+      <link>https://renebidart.com/post/2020-03-22-open-research-8-avae-optimization/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-03-22-open-research-8-avae-optimization/</guid>
+      <description>Optimizing Affine Transforms in VAEs Our goal is to create a VAE which will only encode a subset of affine transforms, but generalize to all. This is shown below: Previously we showed takes a higher capacity VAE to encode all possible orientations of an object, compared to encoding a single orientation. Our goal is to create a smaller model by only encoding a subset of all orientations, but still generalize to all orientations at inference.</description>
+    </item>
+    
+    <item>
+      <title>Open Research 7: Differentiable Affine Transforms</title>
+      <link>https://renebidart.com/post/2020-03-17-open-research-7/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-03-17-open-research-7/</guid>
+      <description>Differentiable 3D Affine Transforms Affine transforms were made popular for deep learning in Spatial Transformer Networks, where they introduced an affine transform layer with to transform an image to some cannonical orientation before it was processed by the network. The parameters of the affine transform would be generated by another network, a localization net, that would take the original image as input, and output the 6 parameters of the affine transform.</description>
+    </item>
+    
+    <item>
+      <title>Open Research 6: Why Deep Learning Research Doesn&#39;t Matter</title>
+      <link>https://renebidart.com/post/2020-03-09-open-research-6/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-03-09-open-research-6/</guid>
+      <description>Why Deep Learning Research Doesn&amp;rsquo;t Matter I started a PhD in deep learning because it was a fast moving field that was having growing impact on the world, and dreams of even greater developments. Even without any AGI dreams, deep learning would transform many industries. So by doing deep learning research I would maximize my impact, right?
+I&amp;rsquo;ve slowly realized how incorrect this assumption was. While the field as a whole is incredibly important, the impact of most research is negligible.</description>
+    </item>
+    
+    <item>
+      <title>Open Research 5: 3D Disentangled Representations and Iteration Speed</title>
+      <link>https://renebidart.com/post/2020-03-02-open-research-5/</link>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-03-02-open-research-5/</guid>
+      <description>3D Disentangled Representations Last week I started my work on this by implementing a 3d VAE, and now it&amp;rsquo;s time to do something with it. The goal is to disentangle the orientation of an object from its shape, by optimizing over the orientation during training. But the plan is to start with the smallest problem possible, and quickly prove or disprove a hypothesis. I discuss why I think this approach is so important below.</description>
+    </item>
+    
+    <item>
+      <title>Open Research 4: Abandoning Weight Sharing, Bitter Lessons and Reasonable Ambition</title>
+      <link>https://renebidart.com/post/2020-02-23-open-research-4/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-02-23-open-research-4/</guid>
+      <description>Disentangled Representations, Bitter Lessons, and the Edge of Ability For a long time I&amp;rsquo;ve been obsessed with the idea of learning disentangled representations of the world. The general problem of learning disentangled representations is impossible without assumptions, just like how there is no classsifier to rule them all. Luckily just like we can construct useful classifiers by making some general assumptions about the structure of the world, we can make assumptions to learn disentangled representations.</description>
+    </item>
+    
+    <item>
+      <title>Open Research 3: Mistakes</title>
+      <link>https://renebidart.com/post/2020-02-16-open-research-3/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-02-16-open-research-3/</guid>
+      <description>Distractions and Mistakes The emotional roller coaster of research continues. Previously I was working on a paper where the results were mediocre, but I thought there was something useful there. I wanted to finish some kind of paper, even if it would never make it to a top conference.
+After some wasted time because of Pytorch lighting and the differences between training on CIFAR10 vs. Imagenet, a few experiments convinced me to had found something good.</description>
+    </item>
+    
+    <item>
+      <title>Open Research 2: Getting Started - Self-supervised Learning, Pytorch Ignite, Lightning and Fastai</title>
+      <link>https://renebidart.com/post/2020-02-09-open-research-2/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-02-09-open-research-2/</guid>
+      <description>NLP I want to do self-supervised learning, and I think NLP is better suited to this, even though I&amp;rsquo;ve worked on vision previously. There is something special about NLP where simple self-supervised objectives like next word or masked work prediction work well, compared to computer vision where more complex methods are needed. If something works here, I can extend it to vision, and my guess is that the switch to NLP won&amp;rsquo;t be too difficult.</description>
+    </item>
+    
+    <item>
+      <title>Open Research 1: Decisions</title>
+      <link>https://renebidart.com/post/2020-01-26-open-research-1/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-01-26-open-research-1/</guid>
+      <description>What to work on? I spent the fall doing an internship at a hedge fund (Shell Street Labs) in Hong Kong, which was a great break from this open ended research. But what will I work on now?
+What is the most important problem in machine learning right now? I&amp;rsquo;m excited for what&amp;rsquo;s going to happen in a bunch of fields, like self-supervised learning, time series, 3D modelling, pose estimation, and a more general form of Neural Architecture Search.</description>
+    </item>
+    
+    <item>
+      <title>Open Research 0: Past</title>
+      <link>https://renebidart.com/post/2020-01-25-open-research-past/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-01-25-open-research-past/</guid>
+      <description>My Deep Learning PhD Journey (so far) 2016-2017 Pre-PhD After messing around with some MMA fight prediction in my undergrad I became interested in machine learning, and decided the best route was to take a masters in statistics. I went to my Waterloo after not being able to defer my acceptance to UofT, and being scared of paying rent in Toronto. I had never visited Waterloo, or had much of a clue what a masters degree or research might entail, only the dream of doing machine learning research.</description>
+    </item>
+    
+    <item>
+      <title>What I Learned in Hong Kong</title>
+      <link>https://renebidart.com/post/2020-01-11-hk/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2020-01-11-hk/</guid>
+      <description>I spent the last few months interning at Shell Street Labs in Hong Kong (September-December 2019), and this opened my eyes to the mess that is media, propaganda, and group identity.
+Media Bullshit I made it a point to follow some Hong Kong, Western, and CCP news sources on twitter. The news was divided over if the police or the protesters caused of most of the violence, but it was all sensationalist.</description>
+    </item>
+    
+    <item>
+      <title>Affine Variational Autoencoders for Efficient Generalization</title>
+      <link>https://renebidart.com/post/2019-05-02-affine-variational-autoencoders/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2019-05-02-affine-variational-autoencoders/</guid>
+      <description>Limitations of Variational Autoencoders Deep learning models are powerful, but don’t always generalize well to out of distribution samples. For example, people have no problem understanding slightly rotated digits:
+        Rotated MNIST    But Variational Autoencoders (VAE) do not generalize to this change in distribution this well. Look at how the encoding performance decreases as the image is rotated:
+        Images after being encoded by VAE after various rotations.</description>
+    </item>
+    
+    <item>
+      <title>The Good, the Bad and the Weird of Vipassana Meditation</title>
+      <link>https://renebidart.com/post/2018-03-26-vipassana/</link>
+      <pubDate>Mon, 26 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2018-03-26-vipassana/</guid>
+      <description>I completed the 10 day silent Vipassana Meditation course at the Dhamma Torana center outside Toronto, Canada. It was my first meditation course, and it was an interesting mix of enlightenment and a big test of self control.
+tl;dr:
+The 10 day Vipassana course is quite unpleasant but totally worthwhile. Yes, you should do it.
+Good Mental Benefits
+Meditation is peddled as a cure for problems in all aspects of your life.</description>
+    </item>
+    
+    <item>
+      <title>Sequential Stratified Sampling</title>
+      <link>https://renebidart.com/post/2018-01-26-sampling/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2018-01-26-sampling/</guid>
+      <description>Stratified Sampling We want to get the estimate the mean of a population, and this population is broken into different groups. As long as these groups are homogeneous, we can produce a better estimate by estimating the means of the groups individually. For example, we could estimate the mean math ability of students in Ontario by dividing it up by schools. By allocating more samples to the schools with higher number of students and variance in ability, we can get a better estimate overall.</description>
+    </item>
+    
+    <item>
+      <title>NIPS 2017 Highlights</title>
+      <link>https://renebidart.com/post/2017-12-13-nips/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://renebidart.com/post/2017-12-13-nips/</guid>
+      <description>Like many of the attendees, this was my first NIPS conference. Overall a great experience, and I doubt there is any substitute for meeting interesting people and learning about the current state of machine learning. Here I’ll mention a few of the highlights of the conference for me, and some of the weirdness.
+Money is flooding in from everywhere in AI, with desperate investors trying to get a piece of the pie.</description>
+    </item>
+    
+  </channel>
+</rss>
