@@ -11,5 +11,6 @@ title = "Rene Bidart"
     [markup.goldmark.renderer]
       unsafe = true
 
-[ignoreFiles]
-  ["old_blogs_ignored/*"]
+ignoreFiles = [
+  "old_blogs_ignored/*"
+]
