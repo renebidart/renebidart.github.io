@@ -12,5 +12,6 @@ title = "Rene Bidart"
       unsafe = true
 
 ignoreFiles = [
-  "old_blogs_ignored/*"
+  "old_blogs_ignored/*",
+  "README.md"
 ]
